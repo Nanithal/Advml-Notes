@@ -4,10 +4,35 @@ aliases:
   - "DEC：Deep Embdeeing Clustering"
 分类: "网络结构"
 笔记类型: "概念笔记"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
+tags:
+  - "知识库/笔记"
+  - "主题/网络结构"
+状态: "已整理"
+摘要: "围绕“DEC - 深度嵌入聚类”，整理DEC 的整体架构全景、编码器网络（Encoder, $f_\\theta$）、可学习的聚类中心（Cluster Centroids, $\\{\\mu_j\\}_{j=1}^K$）。"
+更新日期: "2026-10-30"
+上级目录: "[[20_深度学习/网络结构/总结 - 网络结构]]"
+相关笔记:
+  - "[[40_课程笔记/吴恩达机器学习/K-Means - K均值聚类（待补充）]]"
+  - "[[20_深度学习/网络结构/AE - 自编码器]]"
+  - "[[20_深度学习/网络结构/DSC - 深度子空间聚类]]"
+论文条目:
+  - "[[论文来源目录#dec]]"
+论文标题:
+  - "Unsupervised Deep Embedding for Clustering Analysis"
+发表载体:
+  - "ICML"
+发表年份:
+  - "2016"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://proceedings.mlr.press/v48/xieb16.html"
+预印本链接: []
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[20_深度学习/网络结构/索引 - 网络结构|网络结构索引]]
+[[首页|首页]] · [[20_深度学习/网络结构/总结 - 网络结构|网络结构总结]]
 
 # DEC - 深度嵌入聚类
 
@@ -253,10 +278,16 @@ if __name__ == "__main__":
     
     原始 DEC 使用的是全连接 Stacked Autoencoder，后续方法（如 DCEC）将其替换为了卷积自编码器（Convolutional Autoencoder）。
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[40_课程笔记/吴恩达机器学习/K-Means - K均值聚类（待补充）|K-Means - K均值聚类（待补充）]]：回顾传统聚类背景；该课程页当前待补充。
 - [[20_深度学习/网络结构/AE - 自编码器|AE - 自编码器]]：回顾自编码器的重构与表示学习。
 - [[20_深度学习/网络结构/DSC - 深度子空间聚类|DSC - 深度子空间聚类]]：比较两种深度聚类建模方式。
+
+## 论文出处
+
+- [Unsupervised Deep Embedding for Clustering Analysis](https://proceedings.mlr.press/v48/xieb16.html)：ICML，2016，会议论文。
+
+<!-- knowledge-links:end -->

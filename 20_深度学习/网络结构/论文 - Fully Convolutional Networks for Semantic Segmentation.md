@@ -4,13 +4,35 @@ aliases:
   - "Fully Convolutional Networkd for Semantic Segmentation论文"
 分类: "网络结构"
 笔记类型: "论文阅读"
-整理日期: 2026-10-27
-time: 2026-09-01T21:44:00
+整理日期: "2026-10-27"
+time: "2026-09-01T21:44:00"
 tags:
-  - FCN
+  - "FCN"
+  - "知识库/论文阅读"
+  - "主题/网络结构"
+状态: "已整理"
+摘要: "围绕“论文 - Fully Convolutional Networks for Semantic Segmentation”，整理研究背景与核心问题、核心方法：全卷积网络（FCN）、将全连接层转化为卷积层（Convolutionalization）。"
+更新日期: "2026-10-30"
+上级目录: "[[20_深度学习/网络结构/总结 - 网络结构]]"
+相关笔记:
+  - "[[20_深度学习/网络结构/FCN - 全卷积网络]]"
+论文条目:
+  - "[[论文来源目录#fcn]]"
+论文标题:
+  - "Fully Convolutional Networks for Semantic Segmentation"
+发表载体:
+  - "CVPR"
+发表年份:
+  - "2015"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://openaccess.thecvf.com/content_cvpr_2015/html/Long_Fully_Convolutional_Networks_2015_CVPR_paper.html"
+预印本链接: []
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[20_深度学习/网络结构/索引 - 网络结构|网络结构索引]]
+[[首页|首页]] · [[20_深度学习/网络结构/总结 - 网络结构|网络结构总结]]
 
 # 论文 - Fully Convolutional Networks for Semantic Segmentation
 
@@ -239,8 +261,14 @@ FCN **没有**使用简单的双线性插值（虽然插值很快，但不可�
 
 **上采样（转置卷积）** 解决了“如何把粗粒度热力图变回原图大小”的数学问题；**跳跃连接**解决了“上采样过程中边缘细节丢失”的信息问题。两者结合，才让FCN既能做“全局分类”，又能做“像素级定位”。这也是为什么FCN-8s（融合了三层特征）能显著优于FCN-32s（只用最后一层）的根本原因。
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[20_深度学习/网络结构/FCN - 全卷积网络|FCN - 全卷积网络]]：结合 FCN 结构笔记复习关键设计。
+
+## 论文出处
+
+- [Fully Convolutional Networks for Semantic Segmentation](https://openaccess.thecvf.com/content_cvpr_2015/html/Long_Fully_Convolutional_Networks_2015_CVPR_paper.html)：CVPR，2015，会议论文。
+
+<!-- knowledge-links:end -->

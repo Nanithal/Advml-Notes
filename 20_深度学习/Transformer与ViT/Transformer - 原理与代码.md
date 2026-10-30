@@ -4,16 +4,49 @@ aliases:
   - "讲解Transformer"
 分类: "Transformer与ViT"
 笔记类型: "概念笔记"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
 tags:
-  - Transformer
-  - 自注意力
-  - Attention
-  - 深度学习
-time: 2026-10-15T22:40:00
+  - "Transformer"
+  - "自注意力"
+  - "Attention"
+  - "深度学习"
+  - "知识库/笔记"
+  - "主题/Transformer与ViT"
+time: "2026-10-15T22:40:00"
+状态: "已整理"
+摘要: "围绕“Transformer - 原理与代码”，整理句话定义与全局地图、为什么要有 Transformer：RNN 与 CNN 的瓶颈、RNN 的三个死穴。"
+更新日期: "2026-10-30"
+上级目录: "[[20_深度学习/Transformer与ViT/总结 - Transformer与ViT]]"
+相关笔记:
+  - "[[20_深度学习/Transformer与ViT/Transformer - 入门详解]]"
+  - "[[20_深度学习/Transformer与ViT/MSA - 多头自注意力机制详解]]"
+  - "[[20_深度学习/Transformer与ViT/Transformer - Encoder与Decoder详解]]"
+  - "[[20_深度学习/工具与实现/PyTorch - 张量基础]]"
+  - "[[30_对抗机器学习/迁移与特征攻击/SGM - 跳跃梯度方法]]"
+论文条目:
+  - "[[论文来源目录#transformer]]"
+  - "[[论文来源目录#vit]]"
+论文标题:
+  - "Attention Is All You Need"
+  - "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"
+发表载体:
+  - "NIPS"
+  - "ICLR"
+发表年份:
+  - "2017"
+  - "2021"
+发表类型:
+  - "会议论文"
+  - "会议论文"
+发表链接:
+  - "https://papers.nips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html"
+  - "https://openreview.net/forum?id=YicbFdNTTy"
+预印本链接:
+  - "https://arxiv.org/abs/2010.11929"
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[20_深度学习/Transformer与ViT/索引 - Transformer与ViT|Transformer与ViT索引]]
+[[首页|首页]] · [[20_深度学习/Transformer与ViT/总结 - Transformer与ViT|Transformer与ViT总结]]
 
 # Transformer - 原理与代码
 
@@ -670,8 +703,7 @@ LayerNorm 在**单样本的特征维度**上统计，不依赖 batch；变长序
 - [[20_深度学习/Transformer与ViT/论文 - An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale|论文 - An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale]]：把本架构直接搬到图像分类的 ViT
 - [[30_对抗机器学习/ViT与基础模型攻击/ViT Attack - 发展历程|ViT Attack - 发展历程]]：注意力架构的对抗鲁棒性视角
 
-
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
@@ -679,3 +711,12 @@ LayerNorm 在**单样本的特征维度**上统计，不依赖 batch；变长序
 - [[20_深度学习/Transformer与ViT/MSA - 多头自注意力机制详解|MSA - 多头自注意力机制详解]]：把注意力公式对应到张量形状与代码实现。
 - [[20_深度学习/Transformer与ViT/Transformer - Encoder与Decoder详解|Transformer - Encoder与Decoder详解]]：进一步区分 Encoder 与 Decoder 的职责。
 - [[20_深度学习/工具与实现/PyTorch - 张量基础|PyTorch - 张量基础]]：需要补充张量概念时阅读 PyTorch 基础笔记。
+- [[30_对抗机器学习/迁移与特征攻击/SGM - 跳跃梯度方法|SGM - 跳跃梯度方法]]：以结构感知攻击为例理解残差连接的反向路径。
+
+## 论文出处
+
+- [Attention Is All You Need](https://papers.nips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html)：NIPS，2017，会议论文。
+- [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://openreview.net/forum?id=YicbFdNTTy)：ICLR，2021，会议论文。
+  [预印本](https://arxiv.org/abs/2010.11929)。
+
+<!-- knowledge-links:end -->

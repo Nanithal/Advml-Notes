@@ -2,16 +2,47 @@
 title: "论文 - Attacks in Adversarial Machine Learning：A Systematic Survey from the Life-cycle Perspective"
 aliases:
   - "Attacks in Adversarial Machine Learning：A Systematic Survey from the Life-cycle Perspective论文"
-分类: "对抗机器学习总览"
+分类: "领域总览"
 笔记类型: "论文阅读"
-整理日期: 2026-10-27
-time: 2026-09-13T20:23:00
+整理日期: "2026-10-27"
+time: "2026-09-13T20:23:00"
 tags:
-  - 综述
-  - BackdoorAttack（后门攻击）
+  - "综述"
+  - "BackdoorAttack（后门攻击）"
+  - "知识库/论文阅读"
+  - "主题/领域总览"
+状态: "已整理"
+摘要: "围绕“论文 - Attacks in Adversarial Machine Learning：A Systematic Survey from the Life-cycle Perspective”，整理GPT总结、先给你整篇论文一个“地图”、论文首先定义：什么是 AML？。"
+更新日期: "2026-10-30"
+上级目录: "[[30_对抗机器学习/领域总览/总结 - 领域总览]]"
+相关笔记:
+  - "[[30_对抗机器学习/领域总览/对抗攻击 - 领域分类]]"
+  - "[[30_对抗机器学习/后门攻击/Backdoor Attack - 后门攻击发展历程]]"
+  - "[[30_对抗机器学习/领域总览/Threat Model - 威胁模型详解]]"
+论文条目:
+  - "[[论文来源目录#survey]]"
+  - "[[论文来源目录#uap]]"
+论文标题:
+  - "Attacks in Adversarial Machine Learning: A Systematic Survey from the Life-cycle Perspective"
+  - "Universal Adversarial Perturbations"
+发表载体:
+  - "arXiv"
+  - "CVPR"
+发表年份:
+  - "2023"
+  - "2017"
+发表类型:
+  - "预印本"
+  - "会议论文"
+发表链接:
+  - "https://arxiv.org/abs/2302.09457"
+  - "https://openaccess.thecvf.com/content_cvpr_2017/html/Moosavi-Dezfooli_Universal_Adversarial_Perturbations_CVPR_2017_paper.html"
+预印本链接:
+  - "https://arxiv.org/abs/2302.09457"
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[30_对抗机器学习/领域总览/索引 - 对抗机器学习总览|对抗机器学习总览索引]]
+[[首页|首页]] · [[30_对抗机器学习/领域总览/总结 - 领域总览|领域总览总结]]
 
 # 论文 - Attacks in Adversarial Machine Learning：A Systematic Survey from the Life-cycle Perspective
 
@@ -4837,9 +4868,17 @@ $$ \arg\min_{x_e,w_e} \mathcal{S} + \mathcal{C} + \mathcal{I} $$
 
 **总结**：本文通过生命周期视角统一了AML领域，系统分类并回顾了后门攻击、权重攻击和对抗样本的几乎所有代表性方法，为研究者提供了全面的路线图。
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[30_对抗机器学习/领域总览/对抗攻击 - 领域分类|对抗攻击 - 领域分类]]：对照生命周期视角与现有领域分类。
 - [[30_对抗机器学习/后门攻击/Backdoor Attack - 后门攻击发展历程|Backdoor Attack - 后门攻击发展历程]]：从总览进入后门攻击的发展脉络。
+- [[30_对抗机器学习/领域总览/Threat Model - 威胁模型详解|Threat Model - 威胁模型详解]]：补充攻击者能力与约束的统一描述。
+
+## 论文出处
+
+- [Attacks in Adversarial Machine Learning: A Systematic Survey from the Life-cycle Perspective](https://arxiv.org/abs/2302.09457)：arXiv，2023，预印本。 核实到 2023 年首发、2024 年修订的 arXiv 记录；正式期刊发表记录未核实。
+- [Universal Adversarial Perturbations](https://openaccess.thecvf.com/content_cvpr_2017/html/Moosavi-Dezfooli_Universal_Adversarial_Perturbations_CVPR_2017_paper.html)：CVPR，2017，会议论文。
+
+<!-- knowledge-links:end -->

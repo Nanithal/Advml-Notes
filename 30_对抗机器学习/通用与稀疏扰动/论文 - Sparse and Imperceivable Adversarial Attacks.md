@@ -4,10 +4,36 @@ aliases:
   - "Sparse and Imperceivable Adversarial Attacks"
 分类: "通用与稀疏扰动"
 笔记类型: "论文阅读"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
+tags:
+  - "知识库/论文阅读"
+  - "主题/通用与稀疏扰动"
+状态: "已整理"
+摘要: "围绕“论文 - Sparse and Imperceivable Adversarial Attacks”，整理研究背景与动机、攻击模型定义、稀疏 $l_0$​ 攻击。"
+更新日期: "2026-10-30"
+上级目录: "[[30_对抗机器学习/通用与稀疏扰动/总结 - 通用与稀疏扰动]]"
+相关笔记:
+  - "[[30_对抗机器学习/通用与稀疏扰动/CornerSearch - 稀疏对抗攻击]]"
+  - "[[30_对抗机器学习/通用与稀疏扰动/论文 - The Limitations of Deep Learning in Adversarial Settings]]"
+  - "[[30_对抗机器学习/通用与稀疏扰动/稀疏对抗攻击 - 论文阅读片段（待确认来源）]]"
+  - "[[30_对抗机器学习/ViT与基础模型攻击/论文 - Adversarial Token Attacks on Vision Transformers]]"
+论文条目:
+  - "[[论文来源目录#sparse]]"
+论文标题:
+  - "Sparse and Imperceivable Adversarial Attacks"
+发表载体:
+  - "ICCV"
+发表年份:
+  - "2019"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://openaccess.thecvf.com/content_ICCV_2019/html/Croce_Sparse_and_Imperceivable_Adversarial_Attacks_ICCV_2019_paper.html"
+预印本链接: []
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[30_对抗机器学习/通用与稀疏扰动/索引 - 通用与稀疏扰动|通用与稀疏扰动索引]]
+[[首页|首页]] · [[30_对抗机器学习/通用与稀疏扰动/总结 - 通用与稀疏扰动|通用与稀疏扰动总结]]
 
 # 论文 - Sparse and Imperceivable Adversarial Attacks
 
@@ -562,10 +588,17 @@ $$
     
 5. **对抗训练**：针对 $l_0$​ 攻击，需用 $l_0​-at$ 或 $l_2​-at$；针对 $l_0​+σ$ 攻击，$l_0​+σ-at$ 最有效。
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[30_对抗机器学习/通用与稀疏扰动/CornerSearch - 稀疏对抗攻击|CornerSearch - 稀疏对抗攻击]]：从论文阅读进入 CornerSearch 算法讲解。
 - [[30_对抗机器学习/通用与稀疏扰动/论文 - The Limitations of Deep Learning in Adversarial Settings|论文 - The Limitations of Deep Learning in Adversarial Settings]]：比较不同的稀疏攻击与特征选择方式。
-- [[00_收件箱/稀疏对抗攻击 - 论文阅读片段（待确认来源）|稀疏对抗攻击 - 论文阅读片段（待确认来源）]]：存在待确认来源的稀疏攻击阅读片段。
+- [[30_对抗机器学习/通用与稀疏扰动/稀疏对抗攻击 - 论文阅读片段（待确认来源）|稀疏对抗攻击 - 论文阅读片段（待确认来源）]]：保留待确认来源的阅读片段作为补充材料。
+- [[30_对抗机器学习/ViT与基础模型攻击/论文 - Adversarial Token Attacks on Vision Transformers|论文 - Adversarial Token Attacks on Vision Transformers]]：把块稀疏约束与像素稀疏攻击对照。
+
+## 论文出处
+
+- [Sparse and Imperceivable Adversarial Attacks](https://openaccess.thecvf.com/content_ICCV_2019/html/Croce_Sparse_and_Imperceivable_Adversarial_Attacks_ICCV_2019_paper.html)：ICCV，2019，会议论文。
+
+<!-- knowledge-links:end -->

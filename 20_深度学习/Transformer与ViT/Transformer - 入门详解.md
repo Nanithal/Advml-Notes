@@ -4,10 +4,36 @@ aliases:
   - "Transformer详解"
 分类: "Transformer与ViT"
 笔记类型: "概念笔记"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
+tags:
+  - "知识库/笔记"
+  - "主题/Transformer与ViT"
+状态: "已整理"
+摘要: "围绕“Transformer - 入门详解”，整理Transformer 究竟是什么？、先理解 Transformer 解决了什么问题、Transformer 的定义。"
+更新日期: "2026-10-30"
+上级目录: "[[20_深度学习/Transformer与ViT/总结 - Transformer与ViT]]"
+相关笔记:
+  - "[[20_深度学习/自然语言处理/文本表示 - 机器学习与深度学习如何理解单词]]"
+  - "[[20_深度学习/网络结构/RNN - 循环神经网络]]"
+  - "[[20_深度学习/Transformer与ViT/Transformer - 原理与代码]]"
+  - "[[20_深度学习/Transformer与ViT/MSA - 多头自注意力机制详解]]"
+论文条目:
+  - "[[论文来源目录#transformer]]"
+论文标题:
+  - "Attention Is All You Need"
+发表载体:
+  - "NIPS"
+发表年份:
+  - "2017"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://papers.nips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html"
+预印本链接: []
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[20_深度学习/Transformer与ViT/索引 - Transformer与ViT|Transformer与ViT索引]]
+[[首页|首页]] · [[20_深度学习/Transformer与ViT/总结 - Transformer与ViT|Transformer与ViT总结]]
 
 # Transformer - 入门详解
 
@@ -1568,7 +1594,7 @@ $$
 
 **我建议我们接下来采用真正的教学方式：你先回答这 5 道题，我会逐题纠正你的理解；然后我们专门深入讲解 Attention 的数学原理，用一个完整的数字例子，从 Q、K、V 一直手算到最终输出，直到你能够自己写出对应的 PyTorch 代码。**
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
@@ -1576,3 +1602,9 @@ $$
 - [[20_深度学习/网络结构/RNN - 循环神经网络|RNN - 循环神经网络]]：回顾 Transformer 试图解决的循环网络瓶颈。
 - [[20_深度学习/Transformer与ViT/Transformer - 原理与代码|Transformer - 原理与代码]]：入门后继续学习公式、张量形状与实现。
 - [[20_深度学习/Transformer与ViT/MSA - 多头自注意力机制详解|MSA - 多头自注意力机制详解]]：先弄清多头自注意力，再回到整体结构。
+
+## 论文出处
+
+- [Attention Is All You Need](https://papers.nips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html)：NIPS，2017，会议论文。
+
+<!-- knowledge-links:end -->

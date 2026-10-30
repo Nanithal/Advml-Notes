@@ -2,23 +2,50 @@
 title: "论文 - Boosting Adversarial Attacks with Momentum"
 aliases:
   - "Boosting Adversarial Attacks with Momentum论文"
-分类: "对抗攻击方法"
+分类: "攻击方法"
 笔记类型: "论文阅读"
-整理日期: 2026-10-27
-time: 2026-08-26T15:21:00
+整理日期: "2026-10-27"
+time: "2026-08-26T15:21:00"
 tags:
-  - 对抗攻击
-  - MI-FGSM
-  - 对抗样本
+  - "对抗攻击"
+  - "MI-FGSM"
+  - "对抗样本"
+  - "知识库/论文阅读"
+  - "主题/攻击方法"
+状态: "已整理"
+摘要: "围绕“论文 - Boosting Adversarial Attacks with Momentum”，整理研究背景与核心问题、核心方法：MI-FGSM（Momentum Iterative FGSM）、算法流程（非目标攻击，$\\ell_\\infty$ 约束）。"
+更新日期: "2026-10-30"
+上级目录: "[[30_对抗机器学习/攻击方法/总结 - 攻击方法]]"
+相关笔记:
+  - "[[30_对抗机器学习/攻击方法/论文 - Explaining and Harnessing Adversarial Examples]]"
+  - "[[30_对抗机器学习/攻击方法/MI-FGSM - 动量迭代攻击（早期阅读笔记）]]"
+  - "[[30_对抗机器学习/攻击方法/MIM - 动量迭代攻击详解]]"
+  - "[[30_对抗机器学习/迁移与特征攻击/论文 - Transferability in Machine Learning：From Phenomena to Black-Box Attacks using Adversarial Samples]]"
+  - "[[30_对抗机器学习/迁移与特征攻击/Ensemble - 集成学习与迁移对抗攻击]]"
+论文条目:
+  - "[[论文来源目录#mifgsm]]"
+论文标题:
+  - "Boosting Adversarial Attacks with Momentum"
+发表载体:
+  - "CVPR"
+发表年份:
+  - "2018"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://openaccess.thecvf.com/content_cvpr_2018/html/Dong_Boosting_Adversarial_Attacks_CVPR_2018_paper.html"
+预印本链接:
+  - "https://arxiv.org/abs/1710.06081"
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[30_对抗机器学习/攻击方法/索引 - 对抗攻击方法|对抗攻击方法索引]]
+[[首页|首页]] · [[30_对抗机器学习/攻击方法/总结 - 攻击方法|攻击方法总结]]
 
 # 论文 - Boosting Adversarial Attacks with Momentum
 
 ## 总结文章
 
-这篇论文《Boosting Adversarial Attacks with Momentum》（ICLR 2018）由清华大学团队撰写，针对**黑盒攻击中对抗样本迁移性不足**的问题，提出了**基于动量的迭代攻击方法（MI-FGSM）**，并以此方法赢得了 NIPS 2017 对抗攻击竞赛非目标和目标攻击双料冠军。以下是纯内容总结：
+这篇论文《Boosting Adversarial Attacks with Momentum》（CVPR 2018）由清华大学团队撰写，针对**黑盒攻击中对抗样本迁移性不足**的问题，提出了**基于动量的迭代攻击方法（MI-FGSM）**，并以此方法赢得了 NIPS 2017 对抗攻击竞赛非目标和目标攻击双料冠军。以下是纯内容总结：
 
 ---
 
@@ -307,7 +334,7 @@ $$x_{t+1}^{*}=\mathrm{clip}\big(x_{t+1}^{*},\ x-\epsilon,\ x+\epsilon\big)$$
     
     其中 gt+1gt+1​ 基于对目标类损失求梯度。
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
@@ -315,3 +342,11 @@ $$x_{t+1}^{*}=\mathrm{clip}\big(x_{t+1}^{*},\ x-\epsilon,\ x+\epsilon\big)$$
 - [[30_对抗机器学习/攻击方法/MI-FGSM - 动量迭代攻击（早期阅读笔记）|MI-FGSM - 动量迭代攻击（早期阅读笔记）]]：可与早期阅读记录相互补充。
 - [[30_对抗机器学习/攻击方法/MIM - 动量迭代攻击详解|MIM - 动量迭代攻击详解]]：结合详细推导理解动量累积与更新。
 - [[30_对抗机器学习/迁移与特征攻击/论文 - Transferability in Machine Learning：From Phenomena to Black-Box Attacks using Adversarial Samples|论文 - Transferability in Machine Learning：From Phenomena to Black-Box Attacks using Adversarial Samples]]：把动量攻击放入对抗样本迁移研究中。
+- [[30_对抗机器学习/迁移与特征攻击/Ensemble - 集成学习与迁移对抗攻击|Ensemble - 集成学习与迁移对抗攻击]]：进一步比较 logits、损失和梯度集成。
+
+## 论文出处
+
+- [Boosting Adversarial Attacks with Momentum](https://openaccess.thecvf.com/content_cvpr_2018/html/Dong_Boosting_Adversarial_Attacks_CVPR_2018_paper.html)：CVPR，2018，会议论文。
+  [预印本](https://arxiv.org/abs/1710.06081)。
+
+<!-- knowledge-links:end -->

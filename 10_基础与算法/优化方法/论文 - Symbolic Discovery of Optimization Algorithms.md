@@ -4,13 +4,35 @@ aliases:
   - "Symbolic Discovery of Optimization Algorithms 论文"
 分类: "优化方法"
 笔记类型: "论文阅读"
-整理日期: 2026-10-27
-time: 2026-09-07T19:54:00
+整理日期: "2026-10-27"
+time: "2026-09-07T19:54:00"
 tags:
-  - Lion
+  - "Lion"
+  - "知识库/论文阅读"
+  - "主题/优化方法"
+状态: "已整理"
+摘要: "围绕“论文 - Symbolic Discovery of Optimization Algorithms”，整理研究背景与核心挑战、核心方法：符号化程序发现框架、程序搜索空间设计。"
+更新日期: "2026-10-30"
+上级目录: "[[10_基础与算法/优化方法/总结 - 优化方法]]"
+相关笔记:
+  - "[[10_基础与算法/优化方法/Lion - 优化器详解]]"
+论文条目:
+  - "[[论文来源目录#lion]]"
+论文标题:
+  - "Symbolic Discovery of Optimization Algorithms"
+发表载体:
+  - "NeurIPS"
+发表年份:
+  - "2023"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://papers.nips.cc/paper_files/paper/2023/hash/9a39b4925e35cf447ccba8757137d84f-Abstract-Conference.html"
+预印本链接: []
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[10_基础与算法/优化方法/索引 - 优化方法|优化方法索引]]
+[[首页|首页]] · [[10_基础与算法/优化方法/总结 - 优化方法|优化方法总结]]
 
 # 论文 - Symbolic Discovery of Optimization Algorithms
 
@@ -229,8 +251,14 @@ def train(w, g, m, lr):          # w: weight, g: gradient, m: momentum
 
 本文是**自动机器学习（AutoML）领域的一次漂亮胜利**。它证明了**无需手工设计，通过程序搜索可以“重新发明”比Adam更优秀的优化器**。Lion以其**极致的简洁性**（核心仅几行代码）和**跨任务的强大泛化能力**，有望成为未来深度学习训练的新标配优化器之一。这篇工作也为“用AI发现AI算法”这一宏大愿景提供了一个有力的范例
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[10_基础与算法/优化方法/Lion - 优化器详解|Lion - 优化器详解]]：把论文中的优化器发现与 Lion 更新规则对应起来。
+
+## 论文出处
+
+- [Symbolic Discovery of Optimization Algorithms](https://papers.nips.cc/paper_files/paper/2023/hash/9a39b4925e35cf447ccba8757137d84f-Abstract-Conference.html)：NeurIPS，2023，会议论文。
+
+<!-- knowledge-links:end -->

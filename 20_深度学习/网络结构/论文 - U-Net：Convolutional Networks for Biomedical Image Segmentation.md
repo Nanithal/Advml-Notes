@@ -4,14 +4,36 @@ aliases:
   - "U-Net：Convolutional Networks for Biomedical Image Segmentation论文"
 分类: "网络结构"
 笔记类型: "论文阅读"
-整理日期: 2026-10-27
-time: 2026-09-03T17:14:00
+整理日期: "2026-10-27"
+time: "2026-09-03T17:14:00"
 tags:
-  - U-Net
-  - 图像分割
+  - "U-Net"
+  - "图像分割"
+  - "知识库/论文阅读"
+  - "主题/网络结构"
+状态: "已整理"
+摘要: "围绕“论文 - U-Net：Convolutional Networks for Biomedical Image Segmentation”，整理研究背景与核心问题、核心架构：U-Net（对称的U形结构，见图1）、收缩路径（左侧，Encoder）。"
+更新日期: "2026-10-30"
+上级目录: "[[20_深度学习/网络结构/总结 - 网络结构]]"
+相关笔记:
+  - "[[20_深度学习/网络结构/U-Net - 编码器与解码器分割网络]]"
+论文条目:
+  - "[[论文来源目录#unet]]"
+论文标题:
+  - "U-Net: Convolutional Networks for Biomedical Image Segmentation"
+发表载体:
+  - "MICCAI"
+发表年份:
+  - "2015"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28"
+预印本链接: []
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[20_深度学习/网络结构/索引 - 网络结构|网络结构索引]]
+[[首页|首页]] · [[20_深度学习/网络结构/总结 - 网络结构|网络结构总结]]
 
 # 论文 - U-Net：Convolutional Networks for Biomedical Image Segmentation
 
@@ -301,8 +323,14 @@ $$w(\mathbf{x}) = w_c(\mathbf{x}) + w_0 \cdot \exp\left(-\frac{\big(d_1(\mathbf{
 
 这两者结合，使得U-Net即使只有几十张图，也能学会极其精细且拓扑结构正确的细胞分割，这也是它至今仍是医学图像处理首选基线的重要原因。
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[20_深度学习/网络结构/U-Net - 编码器与解码器分割网络|U-Net - 编码器与解码器分割网络]]：结合结构笔记理解编码器、解码器与跳跃连接。
+
+## 论文出处
+
+- [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28)：MICCAI，2015，会议论文。
+
+<!-- knowledge-links:end -->

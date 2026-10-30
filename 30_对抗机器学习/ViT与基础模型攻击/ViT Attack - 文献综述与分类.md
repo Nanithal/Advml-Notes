@@ -4,10 +4,87 @@ aliases:
   - "ViT Attack领域文献综述与分类"
 分类: "ViT与基础模型攻击"
 笔记类型: "研究综述"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
+tags:
+  - "知识库/笔记"
+  - "主题/ViT与基础模型攻击"
+状态: "已整理"
+摘要: "围绕“ViT Attack - 文献综述与分类”，整理Vision Transformer 对抗攻击（ViT Attack）领域文献综述与研究脉络、领域的奠基性、开创性与关键性工作、ViT Attack 领域的分类框架。"
+更新日期: "2026-10-30"
+上级目录: "[[30_对抗机器学习/ViT与基础模型攻击/总结 - ViT与基础模型攻击]]"
+相关笔记:
+  - "[[30_对抗机器学习/ViT与基础模型攻击/ViT Attack - 文献资料与研究问题]]"
+  - "[[30_对抗机器学习/ViT与基础模型攻击/ViT Attack - 发展历程]]"
+  - "[[30_对抗机器学习/迁移与特征攻击/论文 - Transferability in Machine Learning：From Phenomena to Black-Box Attacks using Adversarial Samples]]"
+  - "[[30_对抗机器学习/ViT与基础模型攻击/SAM Attack - 分割基础模型攻击发展历程]]"
+  - "[[30_对抗机器学习/ViT与基础模型攻击/VLM Attack - 视觉语言模型攻击发展历程]]"
+  - "[[30_对抗机器学习/领域总览/对抗攻击 - 方法与研究前景]]"
+  - "[[30_对抗机器学习/ViT与基础模型攻击/论文 - Towards Transferable Adversarial Attacks on Vision Transformers]]"
+  - "[[30_对抗机器学习/ViT与基础模型攻击/论文 - On the Robustness of Vision Transformers to Adversarial Examples]]"
+  - "[[30_对抗机器学习/ViT与基础模型攻击/论文 - Adversarial Token Attacks on Vision Transformers]]"
+论文条目:
+  - "[[论文来源目录#vit]]"
+  - "[[论文来源目录#robustvit]]"
+  - "[[论文来源目录#token]]"
+  - "[[论文来源目录#pna]]"
+  - "[[论文来源目录#patchfool]]"
+  - "[[论文来源目录#tgr]]"
+  - "[[论文来源目录#mig]]"
+  - "[[论文来源目录#vdc]]"
+论文标题:
+  - "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"
+  - "On the Robustness of Vision Transformers to Adversarial Examples"
+  - "Adversarial Token Attacks on Vision Transformers"
+  - "Towards Transferable Adversarial Attacks on Vision Transformers"
+  - "Patch-Fool: Are Vision Transformers Always Robust Against Adversarial Perturbations?"
+  - "Transferable Adversarial Attacks on Vision Transformers with Token Gradient Regularization"
+  - "Transferable Adversarial Attack for Both Vision Transformers and Convolutional Networks via Momentum Integrated Gradients"
+  - "Improving the Adversarial Transferability of Vision Transformers with Virtual Dense Connection"
+发表载体:
+  - "ICLR"
+  - "ICCV"
+  - "CVPR Workshop on Transformers for Computer Vision"
+  - "AAAI"
+  - "ICLR"
+  - "CVPR"
+  - "ICCV"
+  - "AAAI"
+发表年份:
+  - "2021"
+  - "2021"
+  - "2022"
+  - "2022"
+  - "2022"
+  - "2023"
+  - "2023"
+  - "2024"
+发表类型:
+  - "会议论文"
+  - "会议论文"
+  - "研讨会论文"
+  - "会议论文"
+  - "会议论文"
+  - "会议论文"
+  - "会议论文"
+  - "会议论文"
+发表链接:
+  - "https://openreview.net/forum?id=YicbFdNTTy"
+  - "https://openaccess.thecvf.com/content/ICCV2021/html/Mahmood_On_the_Robustness_of_Vision_Transformers_to_Adversarial_Examples_ICCV_2021_paper.html"
+  - "https://ameya005.github.io/publications/T4WCVPR_AdversarialRobustnessTransformers_final.pdf"
+  - "https://ojs.aaai.org/index.php/AAAI/article/view/20169"
+  - "https://openreview.net/forum?id=28ib9tf6zhr"
+  - "https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Transferable_Adversarial_Attacks_on_Vision_Transformers_With_Token_Gradient_Regularization_CVPR_2023_paper.html"
+  - "https://openaccess.thecvf.com/content/ICCV2023/html/Ma_Transferable_Adversarial_Attack_for_Both_Vision_Transformers_and_Convolutional_Networks_ICCV_2023_paper.html"
+  - "https://ojs.aaai.org/index.php/AAAI/article/view/28541"
+预印本链接:
+  - "https://arxiv.org/abs/2010.11929"
+  - "https://arxiv.org/abs/2110.04337"
+  - "https://arxiv.org/abs/2109.04176"
+  - "https://arxiv.org/abs/2203.08392"
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[30_对抗机器学习/ViT与基础模型攻击/索引 - ViT与基础模型攻击|ViT与基础模型攻击索引]]
+[[首页|首页]] · [[30_对抗机器学习/ViT与基础模型攻击/总结 - ViT与基础模型攻击|ViT与基础模型攻击总结]]
 
 # ViT Attack - 文献综述与分类
 
@@ -507,8 +584,7 @@ $$
 
 *整理说明：本 Markdown 文件由当前对话中的前述综述整理生成，保留主要分类、论文链接、时间线、方法解释、公式与阅读清单；原回答的交互式界面已转换为 Markdown 表格、Mermaid 流程图与勾选框。*
 
-
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
@@ -518,3 +594,23 @@ $$
 - [[30_对抗机器学习/ViT与基础模型攻击/SAM Attack - 分割基础模型攻击发展历程|SAM Attack - 分割基础模型攻击发展历程]]：对照分类模型与分割基础模型的攻击目标。
 - [[30_对抗机器学习/ViT与基础模型攻击/VLM Attack - 视觉语言模型攻击发展历程|VLM Attack - 视觉语言模型攻击发展历程]]：对照纯视觉与视觉语言模型的攻击研究。
 - [[30_对抗机器学习/领域总览/对抗攻击 - 方法与研究前景|对抗攻击 - 方法与研究前景]]：对照总体研究前景与 ViT 专题中的问题分类。
+- [[30_对抗机器学习/ViT与基础模型攻击/论文 - Towards Transferable Adversarial Attacks on Vision Transformers|论文 - Towards Transferable Adversarial Attacks on Vision Transformers]]：新增对应的 PNA/PatchOut 原论文阅读页。
+- [[30_对抗机器学习/ViT与基础模型攻击/论文 - On the Robustness of Vision Transformers to Adversarial Examples|论文 - On the Robustness of Vision Transformers to Adversarial Examples]]：补充 ViT 鲁棒性分析的具体论文阅读。
+- [[30_对抗机器学习/ViT与基础模型攻击/论文 - Adversarial Token Attacks on Vision Transformers|论文 - Adversarial Token Attacks on Vision Transformers]]：补充局部 Token 扰动的论文阅读。
+
+## 论文出处
+
+- [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://openreview.net/forum?id=YicbFdNTTy)：ICLR，2021，会议论文。
+  [预印本](https://arxiv.org/abs/2010.11929)。
+- [On the Robustness of Vision Transformers to Adversarial Examples](https://openaccess.thecvf.com/content/ICCV2021/html/Mahmood_On_the_Robustness_of_Vision_Transformers_to_Adversarial_Examples_ICCV_2021_paper.html)：ICCV，2021，会议论文。
+- [Adversarial Token Attacks on Vision Transformers](https://ameya005.github.io/publications/T4WCVPR_AdversarialRobustnessTransformers_final.pdf)：CVPR Workshop on Transformers for Computer Vision，2022，研讨会论文。 2021 年预印本；作者发表列表注明 2022 年 CVPR Workshop，发表链接为作者公开的研讨会稿。
+  [预印本](https://arxiv.org/abs/2110.04337)。
+- [Towards Transferable Adversarial Attacks on Vision Transformers](https://ojs.aaai.org/index.php/AAAI/article/view/20169)：AAAI，2022，会议论文。
+  [预印本](https://arxiv.org/abs/2109.04176)。
+- [Patch-Fool: Are Vision Transformers Always Robust Against Adversarial Perturbations?](https://openreview.net/forum?id=28ib9tf6zhr)：ICLR，2022，会议论文。
+  [预印本](https://arxiv.org/abs/2203.08392)。
+- [Transferable Adversarial Attacks on Vision Transformers with Token Gradient Regularization](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Transferable_Adversarial_Attacks_on_Vision_Transformers_With_Token_Gradient_Regularization_CVPR_2023_paper.html)：CVPR，2023，会议论文。
+- [Transferable Adversarial Attack for Both Vision Transformers and Convolutional Networks via Momentum Integrated Gradients](https://openaccess.thecvf.com/content/ICCV2023/html/Ma_Transferable_Adversarial_Attack_for_Both_Vision_Transformers_and_Convolutional_Networks_ICCV_2023_paper.html)：ICCV，2023，会议论文。
+- [Improving the Adversarial Transferability of Vision Transformers with Virtual Dense Connection](https://ojs.aaai.org/index.php/AAAI/article/view/28541)：AAAI，2024，会议论文。
+
+<!-- knowledge-links:end -->

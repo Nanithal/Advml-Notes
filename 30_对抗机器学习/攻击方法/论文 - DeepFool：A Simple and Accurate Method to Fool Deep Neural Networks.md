@@ -2,12 +2,36 @@
 title: "论文 - DeepFool：A Simple and Accurate Method to Fool Deep Neural Networks"
 aliases:
   - "DeepFool：A simple and accurate method to fool deep neural networks论文"
-分类: "对抗攻击方法"
+分类: "攻击方法"
 笔记类型: "论文阅读"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
+tags:
+  - "知识库/论文阅读"
+  - "主题/攻击方法"
+状态: "已整理"
+摘要: "围绕“论文 - DeepFool：A Simple and Accurate Method to Fool Deep Neural Networks”，整理研究背景与问题、DeepFool算法、分类器。"
+更新日期: "2026-10-30"
+上级目录: "[[30_对抗机器学习/攻击方法/总结 - 攻击方法]]"
+相关笔记:
+  - "[[30_对抗机器学习/攻击方法/论文 - Explaining and Harnessing Adversarial Examples]]"
+  - "[[30_对抗机器学习/通用与稀疏扰动/论文 - Universal Adversarial Perturbations]]"
+论文条目:
+  - "[[论文来源目录#deepfool]]"
+论文标题:
+  - "DeepFool: A Simple and Accurate Method to Fool Deep Neural Networks"
+发表载体:
+  - "CVPR"
+发表年份:
+  - "2016"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://openaccess.thecvf.com/content_cvpr_2016/html/Moosavi-Dezfooli_DeepFool_A_Simple_CVPR_2016_paper.html"
+预印本链接: []
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[30_对抗机器学习/攻击方法/索引 - 对抗攻击方法|对抗攻击方法索引]]
+[[首页|首页]] · [[30_对抗机器学习/攻击方法/总结 - 攻击方法|攻击方法总结]]
 
 # 论文 - DeepFool：A Simple and Accurate Method to Fool Deep Neural Networks
 
@@ -385,9 +409,15 @@ $$ \hat{l} = \arg\min_{k} \frac{|f_k'|}{\|w_k'\|_1}, $$
 **DeepFool = 迭代地：在当前点线性化分类器 → 找到最近的其他类别边界 → 垂直投影过去 → 更新点 → 直到标签改变。**  
 每一步的扰动累加起来，就是最终的最小对抗扰动。
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[30_对抗机器学习/攻击方法/论文 - Explaining and Harnessing Adversarial Examples|论文 - Explaining and Harnessing Adversarial Examples]]：比较梯度符号方法与边界近似方法。
 - [[30_对抗机器学习/通用与稀疏扰动/论文 - Universal Adversarial Perturbations|论文 - Universal Adversarial Perturbations]]：从逐样本边界估计延伸到通用扰动构造。
+
+## 论文出处
+
+- [DeepFool: A Simple and Accurate Method to Fool Deep Neural Networks](https://openaccess.thecvf.com/content_cvpr_2016/html/Moosavi-Dezfooli_DeepFool_A_Simple_CVPR_2016_paper.html)：CVPR，2016，会议论文。
+
+<!-- knowledge-links:end -->

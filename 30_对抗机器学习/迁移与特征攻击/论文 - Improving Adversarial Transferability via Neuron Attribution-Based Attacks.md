@@ -4,15 +4,38 @@ aliases:
   - "Improving Adversarial Transferability via Neuron Attribution-based Attacks论文"
 分类: "迁移与特征攻击"
 笔记类型: "论文阅读"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
 tags:
-  - NAA
-  - Transferability
-  - 特征攻击
-time: 2026-08-25T17:55:00
+  - "NAA"
+  - "Transferability"
+  - "特征攻击"
+  - "知识库/论文阅读"
+  - "主题/迁移与特征攻击"
+time: "2026-08-25T17:55:00"
+状态: "已整理"
+摘要: "围绕“论文 - Improving Adversarial Transferability via Neuron Attribution-Based Attacks”，整理研究背景与问题、核心创新：神经元归因（Neuron Attribution）、方法细节。"
+更新日期: "2026-10-30"
+上级目录: "[[30_对抗机器学习/迁移与特征攻击/总结 - 迁移与特征攻击]]"
+相关笔记:
+  - "[[30_对抗机器学习/迁移与特征攻击/Feature Attack - 特征攻击发展历程]]"
+  - "[[30_对抗机器学习/迁移与特征攻击/论文 - Feature Importance-Aware Transferable Adversarial Attacks]]"
+论文条目:
+  - "[[论文来源目录#naa]]"
+论文标题:
+  - "Improving Adversarial Transferability via Neuron Attribution-Based Attacks"
+发表载体:
+  - "CVPR"
+发表年份:
+  - "2022"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://openaccess.thecvf.com/content/CVPR2022/html/Zhang_Improving_Adversarial_Transferability_via_Neuron_Attribution-Based_Attacks_CVPR_2022_paper.html"
+预印本链接: []
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[30_对抗机器学习/迁移与特征攻击/索引 - 迁移与特征攻击|迁移与特征攻击索引]]
+[[首页|首页]] · [[30_对抗机器学习/迁移与特征攻击/总结 - 迁移与特征攻击|迁移与特征攻击总结]]
 
 # 论文 - Improving Adversarial Transferability via Neuron Attribution-Based Attacks
 
@@ -160,9 +183,15 @@ $$A_{y_j} \approx (y_j - y_j') \cdot \frac{1}{n}\sum_{m=1}^{n}\frac{\partial F}{
 
 本文从可解释性角度切入，利用**神经元归因**解决了特征攻击中重要性评估不准的核心问题，不仅提升了迁移性，还通过近似方案保证了效率，为后续迁移攻击研究提供了新的思路和强大基线。
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[30_对抗机器学习/迁移与特征攻击/Feature Attack - 特征攻击发展历程|Feature Attack - 特征攻击发展历程]]：回到特征层攻击与迁移的研究脉络。
 - [[30_对抗机器学习/迁移与特征攻击/论文 - Feature Importance-Aware Transferable Adversarial Attacks|论文 - Feature Importance-Aware Transferable Adversarial Attacks]]：比较特征重要性与神经元归因两条迁移攻击路线。
+
+## 论文出处
+
+- [Improving Adversarial Transferability via Neuron Attribution-Based Attacks](https://openaccess.thecvf.com/content/CVPR2022/html/Zhang_Improving_Adversarial_Transferability_via_Neuron_Attribution-Based_Attacks_CVPR_2022_paper.html)：CVPR，2022，会议论文。
+
+<!-- knowledge-links:end -->

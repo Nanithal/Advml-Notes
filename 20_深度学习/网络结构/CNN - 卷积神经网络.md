@@ -4,10 +4,29 @@ aliases:
   - "卷积神经网络---CNN"
 分类: "网络结构"
 笔记类型: "概念笔记"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
+tags:
+  - "知识库/笔记"
+  - "主题/网络结构"
+状态: "已整理"
+摘要: "围绕“CNN - 卷积神经网络”，整理核心架构与组件、A. 卷积层 (Convolutional Layer)、B. 激活层 (Activation Layer)。"
+更新日期: "2026-10-30"
+上级目录: "[[20_深度学习/网络结构/总结 - 网络结构]]"
+相关笔记:
+  - "[[20_深度学习/网络结构/MLP - 多层感知机]]"
+  - "[[20_深度学习/网络结构/FCN - 全卷积网络]]"
+  - "[[20_深度学习/网络结构/论文 - Learning Deep Features for Discriminative Localization]]"
+  - "[[10_基础与算法/强化学习/论文 - Playing Atari with Deep Reinforcement Learning]]"
+论文条目: []
+论文标题: []
+发表载体: []
+发表年份: []
+发表类型: []
+发表链接: []
+预印本链接: []
 ---
 
-[[首页|首页]] · [[20_深度学习/网络结构/索引 - 网络结构|网络结构索引]]
+[[首页|首页]] · [[20_深度学习/网络结构/总结 - 网络结构|网络结构总结]]
 
 # CNN - 卷积神经网络
 
@@ -78,7 +97,7 @@ CNN 的学习过程具有明显的层级性，这在计算机视觉任务中非�
     
 - **人脸识别：** 提取面部特征进行身份比对（以及你关注的对抗性妆容对这些特征的干扰）。
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
@@ -86,3 +105,5 @@ CNN 的学习过程具有明显的层级性，这在计算机视觉任务中非�
 - [[20_深度学习/网络结构/FCN - 全卷积网络|FCN - 全卷积网络]]：从卷积特征提取延伸到像素级预测。
 - [[20_深度学习/网络结构/论文 - Learning Deep Features for Discriminative Localization|论文 - Learning Deep Features for Discriminative Localization]]：延伸到卷积特征的可解释定位。
 - [[10_基础与算法/强化学习/论文 - Playing Atari with Deep Reinforcement Learning|论文 - Playing Atari with Deep Reinforcement Learning]]：联系深度强化学习中的图像特征提取。
+
+<!-- knowledge-links:end -->

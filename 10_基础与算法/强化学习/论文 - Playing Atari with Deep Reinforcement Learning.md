@@ -4,10 +4,35 @@ aliases:
   - "Playing Atari with Deep Reinforcement Learning论文阅读"
 分类: "强化学习"
 笔记类型: "论文阅读"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
+tags:
+  - "知识库/论文阅读"
+  - "主题/强化学习"
+状态: "已整理"
+摘要: "围绕“论文 - Playing Atari with Deep Reinforcement Learning”，整理Abstract、Introduction、Background。"
+更新日期: "2026-10-30"
+上级目录: "[[10_基础与算法/强化学习/总结 - 强化学习]]"
+相关笔记:
+  - "[[10_基础与算法/强化学习/Q-Learning - Q学习]]"
+  - "[[20_深度学习/网络结构/CNN - 卷积神经网络]]"
+论文条目:
+  - "[[论文来源目录#dqn]]"
+论文标题:
+  - "Playing Atari with Deep Reinforcement Learning"
+发表载体:
+  - "NIPS Deep Learning Workshop"
+发表年份:
+  - "2013"
+发表类型:
+  - "研讨会公开稿"
+发表链接:
+  - "https://arxiv.org/abs/1312.5602"
+预印本链接:
+  - "https://arxiv.org/abs/1312.5602"
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[10_基础与算法/强化学习/索引 - 强化学习|强化学习索引]]
+[[首页|首页]] · [[10_基础与算法/强化学习/总结 - 强化学习|强化学习总结]]
 
 # 论文 - Playing Atari with Deep Reinforcement Learning
 
@@ -86,13 +111,15 @@ aliases:
 与Sarsa和Contingency方法相比，本文的方法更加地厉害，取得了更好的效果。这两种方法都通过使用背景减除并将 128 种颜色视为单独的通道，融入了关于视觉问题的显著先验知识。而本文的智能体仅接收原始 RGB 截图作为输入，必须自行学习检测物体。
 通过评估，本文提出的DQN效果都要由于其他的方法
 
-
-
-
-
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[10_基础与算法/强化学习/Q-Learning - Q学习|Q-Learning - Q学习]]：回顾 Q 函数与 Bellman 更新。
 - [[20_深度学习/网络结构/CNN - 卷积神经网络|CNN - 卷积神经网络]]：联系深度强化学习中的图像特征提取。
+
+## 论文出处
+
+- [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602)：NIPS Deep Learning Workshop，2013，研讨会公开稿。 作者 arXiv 页面注明 NIPS Deep Learning Workshop 2013；链接为公开稿，不与 2015 年 Nature 论文混用。
+
+<!-- knowledge-links:end -->

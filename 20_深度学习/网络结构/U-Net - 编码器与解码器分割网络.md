@@ -4,10 +4,36 @@ aliases:
   - "U-Net"
 分类: "网络结构"
 笔记类型: "概念笔记"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
+tags:
+  - "知识库/笔记"
+  - "主题/网络结构"
+状态: "已整理"
+摘要: "围绕“U-Net - 编码器与解码器分割网络”，整理U-Net 的设计背景：为什么医学图像需要它？、U-Net 架构全景剖析、左侧：收缩路径（Contracting Path / Encoder）。"
+更新日期: "2026-10-30"
+上级目录: "[[20_深度学习/网络结构/总结 - 网络结构]]"
+相关笔记:
+  - "[[20_深度学习/网络结构/FCN - 全卷积网络]]"
+  - "[[20_深度学习/网络结构/采样 - 上采样与下采样]]"
+  - "[[20_深度学习/网络结构/论文 - U-Net：Convolutional Networks for Biomedical Image Segmentation]]"
+  - "[[30_对抗机器学习/ViT与基础模型攻击/SAM Attack - 分割基础模型攻击发展历程]]"
+论文条目:
+  - "[[论文来源目录#unet]]"
+论文标题:
+  - "U-Net: Convolutional Networks for Biomedical Image Segmentation"
+发表载体:
+  - "MICCAI"
+发表年份:
+  - "2015"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28"
+预印本链接: []
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[20_深度学习/网络结构/索引 - 网络结构|网络结构索引]]
+[[首页|首页]] · [[20_深度学习/网络结构/总结 - 网络结构|网络结构总结]]
 
 # U-Net - 编码器与解码器分割网络
 
@@ -238,7 +264,7 @@ if __name__ == "__main__":
     
 4. **Swin-UNet**：将 Transformer（Swin Transformer）作为骨干替代传统 CNN，更好地捕获全局长距离依赖。
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
@@ -246,3 +272,9 @@ if __name__ == "__main__":
 - [[20_深度学习/网络结构/采样 - 上采样与下采样|采样 - 上采样与下采样]]：结合下采样与上采样理解 U 形结构。
 - [[20_深度学习/网络结构/论文 - U-Net：Convolutional Networks for Biomedical Image Segmentation|论文 - U-Net：Convolutional Networks for Biomedical Image Segmentation]]：从网络讲解回到原论文阅读。
 - [[30_对抗机器学习/ViT与基础模型攻击/SAM Attack - 分割基础模型攻击发展历程|SAM Attack - 分割基础模型攻击发展历程]]：结合分割网络背景比较攻击目标与输出结构。
+
+## 论文出处
+
+- [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28)：MICCAI，2015，会议论文。
+
+<!-- knowledge-links:end -->

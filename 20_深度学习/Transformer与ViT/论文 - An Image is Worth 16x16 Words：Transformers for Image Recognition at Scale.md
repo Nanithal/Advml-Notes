@@ -4,17 +4,46 @@ aliases:
   - "An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale论文"
 分类: "Transformer与ViT"
 笔记类型: "论文阅读"
-整理日期: 2026-10-27
-time: 2026-10-15T22:20:00
+整理日期: "2026-10-27"
+time: "2026-10-15T22:20:00"
 tags:
-  - ViT
-  - Vision Transformer
-  - 自注意力
-  - 图像分类
-  - 归纳偏置
+  - "ViT"
+  - "Vision_Transformer"
+  - "自注意力"
+  - "图像分类"
+  - "归纳偏置"
+  - "知识库/论文阅读"
+  - "主题/Transformer与ViT"
+状态: "已整理"
+摘要: "围绕“论文 - An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale”，整理研究背景与核心问题、方法：Vision Transformer（ViT）、整体流程（论文图 1）。"
+更新日期: "2026-10-30"
+上级目录: "[[20_深度学习/Transformer与ViT/总结 - Transformer与ViT]]"
+相关笔记:
+  - "[[20_深度学习/Transformer与ViT/Transformer - Encoder与Decoder详解]]"
+  - "[[20_深度学习/训练基础/Inductive Bias - 归纳偏置]]"
+  - "[[20_深度学习/Transformer与ViT/MSA - 多头自注意力机制详解]]"
+  - "[[50_汇报与写作/ViT/ViT - 原论文汇报提纲]]"
+  - "[[30_对抗机器学习/ViT与基础模型攻击/ViT Attack - 发展历程]]"
+  - "[[10_基础与算法/评价指标/Top-1 Accuracy - 分类与鲁棒性评价指标]]"
+  - "[[30_对抗机器学习/ViT与基础模型攻击/论文 - Adversarial Token Attacks on Vision Transformers]]"
+论文条目:
+  - "[[论文来源目录#vit]]"
+论文标题:
+  - "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"
+发表载体:
+  - "ICLR"
+发表年份:
+  - "2021"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://openreview.net/forum?id=YicbFdNTTy"
+预印本链接:
+  - "https://arxiv.org/abs/2010.11929"
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[20_深度学习/Transformer与ViT/索引 - Transformer与ViT|Transformer与ViT索引]]
+[[首页|首页]] · [[20_深度学习/Transformer与ViT/总结 - Transformer与ViT|Transformer与ViT总结]]
 
 # 论文 - An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale
 
@@ -313,8 +342,7 @@ ViT 是**视觉与 NLP 架构统一的转折点**。它的技术含量并不体�
 - [[20_深度学习/训练基础/Inductive Bias - 归纳偏置|Inductive Bias - 归纳偏置]]：ViT 是“弱归纳偏置需要海量数据”的经典案例
 - [[30_对抗机器学习/ViT与基础模型攻击/ViT Attack - 发展历程|ViT Attack - 发展历程]]：以 ViT 为攻击对象的对抗攻击研究脉络
 
-
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
@@ -323,3 +351,12 @@ ViT 是**视觉与 NLP 架构统一的转折点**。它的技术含量并不体�
 - [[20_深度学习/Transformer与ViT/MSA - 多头自注意力机制详解|MSA - 多头自注意力机制详解]]：回顾多头自注意力中的 Q、K、V 与形状。
 - [[50_汇报与写作/ViT/ViT - 原论文汇报提纲|ViT - 原论文汇报提纲]]：从原论文阅读进入汇报提纲。
 - [[30_对抗机器学习/ViT与基础模型攻击/ViT Attack - 发展历程|ViT Attack - 发展历程]]：从模型设计延伸到针对 ViT 的攻击研究。
+- [[10_基础与算法/评价指标/Top-1 Accuracy - 分类与鲁棒性评价指标|Top-1 Accuracy - 分类与鲁棒性评价指标]]：核对 Top-1、Top-5 等实验指标的定义。
+- [[30_对抗机器学习/ViT与基础模型攻击/论文 - Adversarial Token Attacks on Vision Transformers|论文 - Adversarial Token Attacks on Vision Transformers]]：从模型结构延伸到局部 Token 扰动。
+
+## 论文出处
+
+- [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://openreview.net/forum?id=YicbFdNTTy)：ICLR，2021，会议论文。
+  [预印本](https://arxiv.org/abs/2010.11929)。
+
+<!-- knowledge-links:end -->

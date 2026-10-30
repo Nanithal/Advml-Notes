@@ -4,15 +4,46 @@ aliases:
   - "Generalizable Data-free Objective for Crafting Universal Adversarial Perturbations论文"
 分类: "通用与稀疏扰动"
 笔记类型: "论文阅读"
-整理日期: 2026-10-27
-time: 2026-08-26T11:17:00
+整理日期: "2026-10-27"
+time: "2026-08-26T11:17:00"
 tags:
-  - 通用攻击
-  - GD-UAP
-  - 无数据
+  - "通用攻击"
+  - "GD-UAP"
+  - "无数据"
+  - "知识库/论文阅读"
+  - "主题/通用与稀疏扰动"
+状态: "已整理"
+摘要: "围绕“论文 - Generalizable Data-Free Objective for Crafting Universal Adversarial Perturbations”，整理研究背景与问题、核心方法：数据无关的激活最大化目标、利用先验信息增强扰动（三种变体）。"
+更新日期: "2026-10-30"
+上级目录: "[[30_对抗机器学习/通用与稀疏扰动/总结 - 通用与稀疏扰动]]"
+相关笔记:
+  - "[[30_对抗机器学习/通用与稀疏扰动/论文 - Universal Adversarial Perturbations]]"
+  - "[[30_对抗机器学习/迁移与特征攻击/论文 - Transferability in Machine Learning：From Phenomena to Black-Box Attacks using Adversarial Samples]]"
+  - "[[30_对抗机器学习/通用与稀疏扰动/论文 - Data-Free Universal Adversarial Perturbation and Black-Box Attack]]"
+论文条目:
+  - "[[论文来源目录#gduap]]"
+  - "[[论文来源目录#uap]]"
+论文标题:
+  - "Generalizable Data-free Objective for Crafting Universal Adversarial Perturbations"
+  - "Universal Adversarial Perturbations"
+发表载体:
+  - "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)"
+  - "CVPR"
+发表年份:
+  - "2020"
+  - "2017"
+发表类型:
+  - "期刊论文"
+  - "会议论文"
+发表链接:
+  - "https://doi.org/10.1109/TPAMI.2018.2861800"
+  - "https://openaccess.thecvf.com/content_cvpr_2017/html/Moosavi-Dezfooli_Universal_Adversarial_Perturbations_CVPR_2017_paper.html"
+预印本链接:
+  - "https://arxiv.org/abs/1801.08092"
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[30_对抗机器学习/通用与稀疏扰动/索引 - 通用与稀疏扰动|通用与稀疏扰动索引]]
+[[首页|首页]] · [[30_对抗机器学习/通用与稀疏扰动/总结 - 通用与稀疏扰动|通用与稀疏扰动总结]]
 
 # 论文 - Generalizable Data-Free Objective for Crafting Universal Adversarial Perturbations
 
@@ -194,9 +225,18 @@ tags:
 
 本文是**通用对抗扰动（UAP）领域的重要扩展**，将生成过程从"数据依赖+任务特定"推进到"数据无关+任务通用"，并系统分析了先验信息、防御鲁棒性和内在机理。其结果表明：**即使没有训练数据，深度模型仍能被高效欺骗**，对模型部署安全性提出了更高要求。
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[30_对抗机器学习/通用与稀疏扰动/论文 - Universal Adversarial Perturbations|论文 - Universal Adversarial Perturbations]]：回顾图像无关的通用扰动问题。
 - [[30_对抗机器学习/迁移与特征攻击/论文 - Transferability in Machine Learning：From Phenomena to Black-Box Attacks using Adversarial Samples|论文 - Transferability in Machine Learning：From Phenomena to Black-Box Attacks using Adversarial Samples]]：比较图像无关的共享扰动与跨模型迁移两个维度。
+- [[30_对抗机器学习/通用与稀疏扰动/论文 - Data-Free Universal Adversarial Perturbation and Black-Box Attack|论文 - Data-Free Universal Adversarial Perturbation and Black-Box Attack]]：比较两篇无数据通用扰动工作的目标和数据假设。
+
+## 论文出处
+
+- [Generalizable Data-free Objective for Crafting Universal Adversarial Perturbations](https://doi.org/10.1109/TPAMI.2018.2861800)：IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)，2020，期刊论文。 2018 年已有在线版本，2020 年为正式卷期年份。
+  [预印本](https://arxiv.org/abs/1801.08092)。
+- [Universal Adversarial Perturbations](https://openaccess.thecvf.com/content_cvpr_2017/html/Moosavi-Dezfooli_Universal_Adversarial_Perturbations_CVPR_2017_paper.html)：CVPR，2017，会议论文。
+
+<!-- knowledge-links:end -->

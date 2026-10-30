@@ -4,10 +4,34 @@ aliases:
   - "t-SNE：t-Distributed Stochastic Neighbor Embedding"
 分类: "经典机器学习"
 笔记类型: "概念笔记"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
+tags:
+  - "知识库/笔记"
+  - "主题/经典机器学习"
+状态: "已整理"
+摘要: "围绕“t-SNE - t分布随机近邻嵌入”，整理核心直观与突破：t-SNE 解决了什么痛点？、什么是“拥挤问题”？、t-SNE 的核心数学机制：将距离转化为概率。"
+更新日期: "2026-10-30"
+上级目录: "[[10_基础与算法/经典机器学习/总结 - 经典机器学习]]"
+相关笔记:
+  - "[[10_基础与算法/经典机器学习/LLE - 局部线性嵌入]]"
+  - "[[10_基础与算法/经典机器学习/PCA - 主成分分析]]"
+论文条目:
+  - "[[论文来源目录#tsne]]"
+论文标题:
+  - "Visualizing Data using t-SNE"
+发表载体:
+  - "Journal of Machine Learning Research (JMLR)"
+发表年份:
+  - "2008"
+发表类型:
+  - "期刊论文"
+发表链接:
+  - "https://www.jmlr.org/beta/papers/v9/vandermaaten08a.html"
+预印本链接: []
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[10_基础与算法/经典机器学习/索引 - 经典机器学习|经典机器学习索引]]
+[[首页|首页]] · [[10_基础与算法/经典机器学习/总结 - 经典机器学习|经典机器学习总结]]
 
 # t-SNE - t分布随机近邻嵌入
 
@@ -198,9 +222,15 @@ plt.show()
     
 3. **簇的“大小/面积”不可信**：由于高斯方差 $\sigma_i$ 的自适应调节，原本在高维空间中极其分散的簇，在 t-SNE 绘图里可能会被压缩成和紧凑簇差不多大小。
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[10_基础与算法/经典机器学习/LLE - 局部线性嵌入|LLE - 局部线性嵌入]]：比较两种非线性降维的邻域保持方式。
 - [[10_基础与算法/经典机器学习/PCA - 主成分分析|PCA - 主成分分析]]：比较低维可视化与线性主成分投影。
+
+## 论文出处
+
+- [Visualizing Data using t-SNE](https://www.jmlr.org/beta/papers/v9/vandermaaten08a.html)：Journal of Machine Learning Research (JMLR)，2008，期刊论文。
+
+<!-- knowledge-links:end -->

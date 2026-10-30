@@ -4,11 +4,34 @@ aliases:
   - "FFGSM：Fast Free Gradient Sign Method快速免费梯度符号法"
 分类: "防御与鲁棒性"
 笔记类型: "概念笔记"
-整理日期: 2026-10-27
-状态: 术语待核对
+整理日期: "2026-10-27"
+状态: "术语待核对"
+tags:
+  - "知识库/笔记"
+  - "主题/防御与鲁棒性"
+摘要: "围绕“FFGSM - 快速免费梯度符号法（术语待核对）”，整理核心痛点：传统对抗训练为什么太慢？、算法核心原理：重放与并行更新 (Replay Trick)、数学公式表达。"
+更新日期: "2026-10-30"
+上级目录: "[[30_对抗机器学习/防御与鲁棒性/总结 - 防御与鲁棒性]]"
+相关笔记:
+  - "[[30_对抗机器学习/防御与鲁棒性/论文 - Towards Deep Learning Models Resistant to Adversarial Attacks]]"
+  - "[[30_对抗机器学习/攻击方法/论文 - Explaining and Harnessing Adversarial Examples]]"
+论文条目:
+  - "[[论文来源目录#freeat]]"
+论文标题:
+  - "Adversarial Training for Free!"
+发表载体:
+  - "NeurIPS"
+发表年份:
+  - "2019"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://papers.nips.cc/paper_files/paper/2019/hash/7503cfacd12053d309b6bed5c89de212-Abstract.html"
+预印本链接: []
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[30_对抗机器学习/防御与鲁棒性/索引 - 防御与鲁棒性|防御与鲁棒性索引]]
+[[首页|首页]] · [[30_对抗机器学习/防御与鲁棒性/总结 - 防御与鲁棒性|防御与鲁棒性总结]]
 
 # FFGSM - 快速免费梯度符号法（术语待核对）
 
@@ -129,9 +152,15 @@ def free_adversarial_training(model, train_loader, optimizer, epochs, epsilon=8/
 
 Fast Free FGSM 的价值在于**将对抗训练从“只有少数顶尖实验室才能跑得起的大计算量任务”降低到了“普通消费级显卡也能轻松训练”的门槛**，在计算效率与防御鲁棒性之间取得了极佳平衡。 
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[30_对抗机器学习/防御与鲁棒性/论文 - Towards Deep Learning Models Resistant to Adversarial Attacks|论文 - Towards Deep Learning Models Resistant to Adversarial Attacks]]：原笔记讨论对抗训练成本，可与鲁棒训练框架对照。
 - [[30_对抗机器学习/攻击方法/论文 - Explaining and Harnessing Adversarial Examples|论文 - Explaining and Harnessing Adversarial Examples]]：原文件名与正文涉及不同术语，需回原文核对。
+
+## 论文出处
+
+- [Adversarial Training for Free!](https://papers.nips.cc/paper_files/paper/2019/hash/7503cfacd12053d309b6bed5c89de212-Abstract.html)：NeurIPS，2019，会议论文。 用于原 FFGSM 笔记中讨论的 FreeAT 内容，不认定 FFGSM 与 FreeAT 是同一术语。
+
+<!-- knowledge-links:end -->

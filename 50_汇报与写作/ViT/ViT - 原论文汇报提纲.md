@@ -2,12 +2,36 @@
 title: "ViT - 原论文汇报提纲"
 aliases:
   - "An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale论文汇报"
-分类: "汇报与写作"
+分类: "ViT汇报"
 笔记类型: "汇报提纲"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
+tags:
+  - "知识库/笔记"
+  - "主题/ViT汇报"
+状态: "已整理"
+摘要: "围绕“ViT - 原论文汇报提纲”，整理💡 汇报整体思路（实验前部分）、第一部分：引言与背景 (Introduction)、第二部分：相关工作 (Related Work)。"
+更新日期: "2026-10-30"
+上级目录: "[[50_汇报与写作/ViT/总结 - ViT汇报]]"
+相关笔记:
+  - "[[20_深度学习/Transformer与ViT/论文 - An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale]]"
+论文条目:
+  - "[[论文来源目录#vit]]"
+论文标题:
+  - "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"
+发表载体:
+  - "ICLR"
+发表年份:
+  - "2021"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://openreview.net/forum?id=YicbFdNTTy"
+预印本链接:
+  - "https://arxiv.org/abs/2010.11929"
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[50_汇报与写作/索引 - 汇报与写作|汇报与写作索引]]
+[[首页|首页]] · [[50_汇报与写作/ViT/总结 - ViT汇报|ViT汇报总结]]
 
 # ViT - 原论文汇报提纲
 
@@ -89,8 +113,15 @@ aliases:
     
 3. **点题核心结论**：在过渡到实验部分前，一定要抛出本文最大的思想转变：**“为什么 ViT 行？因为大模型 + 大数据（Data-hungry）打败了对视觉归纳偏置的盲目依赖。”** 这样能完美承接后面的实验章节。
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[20_深度学习/Transformer与ViT/论文 - An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale|论文 - An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale]]：回到详细论文阅读笔记核对方法与实验。
+
+## 论文出处
+
+- [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://openreview.net/forum?id=YicbFdNTTy)：ICLR，2021，会议论文。
+  [预印本](https://arxiv.org/abs/2010.11929)。
+
+<!-- knowledge-links:end -->

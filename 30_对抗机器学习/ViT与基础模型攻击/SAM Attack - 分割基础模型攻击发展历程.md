@@ -4,10 +4,34 @@ aliases:
   - "SAM Attack（Segment anything model）发展历程"
 分类: "ViT与基础模型攻击"
 笔记类型: "研究综述"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
+tags:
+  - "知识库/笔记"
+  - "主题/ViT与基础模型攻击"
+状态: "已整理"
+摘要: "围绕“SAM Attack - 分割基础模型攻击发展历程”，整理研究背景：为什么 SAM 会成为对抗攻击的目标？、SAM 的工作机制、为什么传统分类攻击不能直接照搬？。"
+更新日期: "2026-10-30"
+上级目录: "[[30_对抗机器学习/ViT与基础模型攻击/总结 - ViT与基础模型攻击]]"
+相关笔记:
+  - "[[30_对抗机器学习/ViT与基础模型攻击/ViT Attack - 文献综述与分类]]"
+  - "[[20_深度学习/网络结构/U-Net - 编码器与解码器分割网络]]"
+论文条目:
+  - "[[论文来源目录#sam]]"
+论文标题:
+  - "Segment Anything"
+发表载体:
+  - "ICCV"
+发表年份:
+  - "2023"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html"
+预印本链接: []
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[30_对抗机器学习/ViT与基础模型攻击/索引 - ViT与基础模型攻击|ViT与基础模型攻击索引]]
+[[首页|首页]] · [[30_对抗机器学习/ViT与基础模型攻击/总结 - ViT与基础模型攻击|ViT与基础模型攻击总结]]
 
 # SAM Attack - 分割基础模型攻击发展历程
 
@@ -750,9 +774,15 @@ SAM-BM 的价值就在于系统研究损失函数、攻击策略与目标尺度�
 
 [阅读原论文](https://arxiv.org/abs/2411.02974)
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[30_对抗机器学习/ViT与基础模型攻击/ViT Attack - 文献综述与分类|ViT Attack - 文献综述与分类]]：对照分类模型与分割基础模型的攻击目标。
 - [[20_深度学习/网络结构/U-Net - 编码器与解码器分割网络|U-Net - 编码器与解码器分割网络]]：结合分割网络背景比较攻击目标与输出结构。
+
+## 论文出处
+
+- [Segment Anything](https://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html)：ICCV，2023，会议论文。
+
+<!-- knowledge-links:end -->

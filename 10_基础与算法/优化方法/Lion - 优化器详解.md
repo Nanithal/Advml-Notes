@@ -4,10 +4,34 @@ aliases:
   - "Lion优化器"
 分类: "优化方法"
 笔记类型: "概念笔记"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
+tags:
+  - "知识库/笔记"
+  - "主题/优化方法"
+状态: "已整理"
+摘要: "围绕“Lion - 优化器详解”，整理Lion讲解、诞生背景：为什么要寻找 AdamW 的替代者？、AdamW 的显存瓶颈。"
+更新日期: "2026-10-30"
+上级目录: "[[10_基础与算法/优化方法/总结 - 优化方法]]"
+相关笔记:
+  - "[[10_基础与算法/优化方法/AdamW - 解耦权重衰减]]"
+  - "[[10_基础与算法/优化方法/论文 - Symbolic Discovery of Optimization Algorithms]]"
+论文条目:
+  - "[[论文来源目录#lion]]"
+论文标题:
+  - "Symbolic Discovery of Optimization Algorithms"
+发表载体:
+  - "NeurIPS"
+发表年份:
+  - "2023"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://papers.nips.cc/paper_files/paper/2023/hash/9a39b4925e35cf447ccba8757137d84f-Abstract-Conference.html"
+预印本链接: []
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[10_基础与算法/优化方法/索引 - 优化方法|优化方法索引]]
+[[首页|首页]] · [[10_基础与算法/优化方法/总结 - 优化方法|优化方法总结]]
 
 # Lion - 优化器详解
 
@@ -737,9 +761,15 @@ Lion：  更新 1η
 
 所以你如果现在继续深入优化器，下一步最值得搞懂的其实是 **“Adam 的二阶矩 vtv_t 到底在数学上解决了什么问题，以及为什么它有时会损害泛化”**。这个搞懂后，Lion 为什么这么设计就会非常自然。
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[10_基础与算法/优化方法/AdamW - 解耦权重衰减|AdamW - 解耦权重衰减]]：对照 AdamW 的更新方式。
 - [[10_基础与算法/优化方法/论文 - Symbolic Discovery of Optimization Algorithms|论文 - Symbolic Discovery of Optimization Algorithms]]：从算法讲解回到原论文阅读。
+
+## 论文出处
+
+- [Symbolic Discovery of Optimization Algorithms](https://papers.nips.cc/paper_files/paper/2023/hash/9a39b4925e35cf447ccba8757137d84f-Abstract-Conference.html)：NeurIPS，2023，会议论文。
+
+<!-- knowledge-links:end -->

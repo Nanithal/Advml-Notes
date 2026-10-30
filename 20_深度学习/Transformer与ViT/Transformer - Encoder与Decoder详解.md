@@ -4,17 +4,48 @@ aliases:
   - "讲解decoder和encoder"
 分类: "Transformer与ViT"
 笔记类型: "概念笔记"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
 tags:
-  - Transformer
-  - Encoder
-  - Decoder
-  - 自注意力
-  - 交叉注意力
-time: 2026-10-15T23:05:00
+  - "Transformer"
+  - "Encoder"
+  - "Decoder"
+  - "自注意力"
+  - "交叉注意力"
+  - "知识库/笔记"
+  - "主题/Transformer与ViT"
+time: "2026-10-15T23:05:00"
+状态: "已整理"
+摘要: "围绕“Transformer - Encoder与Decoder详解”，整理为什么需要\"编码器 + 解码器\"这两个角色、Encoder 详解：一次读完、双向理解、输入处理。"
+更新日期: "2026-10-30"
+上级目录: "[[20_深度学习/Transformer与ViT/总结 - Transformer与ViT]]"
+相关笔记:
+  - "[[20_深度学习/Transformer与ViT/Transformer - 原理与代码]]"
+  - "[[20_深度学习/Transformer与ViT/论文 - An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale]]"
+  - "[[20_深度学习/训练基础/Mask - 掩码机制详解]]"
+论文条目:
+  - "[[论文来源目录#transformer]]"
+  - "[[论文来源目录#vit]]"
+论文标题:
+  - "Attention Is All You Need"
+  - "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"
+发表载体:
+  - "NIPS"
+  - "ICLR"
+发表年份:
+  - "2017"
+  - "2021"
+发表类型:
+  - "会议论文"
+  - "会议论文"
+发表链接:
+  - "https://papers.nips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html"
+  - "https://openreview.net/forum?id=YicbFdNTTy"
+预印本链接:
+  - "https://arxiv.org/abs/2010.11929"
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[20_深度学习/Transformer与ViT/索引 - Transformer与ViT|Transformer与ViT索引]]
+[[首页|首页]] · [[20_深度学习/Transformer与ViT/总结 - Transformer与ViT|Transformer与ViT总结]]
 
 # Transformer - Encoder与Decoder详解
 
@@ -467,10 +498,18 @@ def greedy_decode(encoder, decoder, src, bos_id, eos_id, max_len=50, pad_id=0):
 - [[20_深度学习/训练基础/Inductive Bias - 归纳偏置|Inductive Bias - 归纳偏置]]：为什么"数据够多时结构约束可以让位给统一架构"
 - [[20_深度学习/Transformer与ViT/论文 - An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale|论文 - An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale]]：只保留 Encoder 的视觉版本
 
-
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[20_深度学习/Transformer与ViT/Transformer - 原理与代码|Transformer - 原理与代码]]：回顾 Transformer 各子层及代码实现。
 - [[20_深度学习/Transformer与ViT/论文 - An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale|论文 - An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale]]：对照 ViT 对 Transformer 编码器的使用。
+- [[20_深度学习/训练基础/Mask - 掩码机制详解|Mask - 掩码机制详解]]：结合因果掩码解释 Decoder 的注意力连接。
+
+## 论文出处
+
+- [Attention Is All You Need](https://papers.nips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html)：NIPS，2017，会议论文。
+- [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://openreview.net/forum?id=YicbFdNTTy)：ICLR，2021，会议论文。
+  [预印本](https://arxiv.org/abs/2010.11929)。
+
+<!-- knowledge-links:end -->

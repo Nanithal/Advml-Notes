@@ -4,10 +4,34 @@ aliases:
   - "SVRG：Stochastic Variance Reduced Gradient 随机方差梯度衰减"
 分类: "优化方法"
 笔记类型: "概念笔记"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
+tags:
+  - "知识库/笔记"
+  - "主题/优化方法"
+状态: "已整理"
+摘要: "围绕“SVRG - 随机方差缩减梯度”，整理动机与痛点：GD vs SGD 的权衡、批量梯度下降（Batch Gradient Descent, GD）、随机梯度下降（Stochastic Gradient Descent, SGD）。"
+更新日期: "2026-10-30"
+上级目录: "[[10_基础与算法/优化方法/总结 - 优化方法]]"
+相关笔记:
+  - "[[10_基础与算法/优化方法/论文 - Accelerating Stochastic Gradient Descent using Predictive Variance Reduction]]"
+  - "[[40_课程笔记/吴恩达机器学习/梯度下降 - 课程笔记]]"
+论文条目:
+  - "[[论文来源目录#svrg]]"
+论文标题:
+  - "Accelerating Stochastic Gradient Descent using Predictive Variance Reduction"
+发表载体:
+  - "NIPS"
+发表年份:
+  - "2013"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://papers.nips.cc/paper_files/paper/2013/hash/ac1dd209cbcc5e5d1c6e28598e8cbbe8-Abstract.html"
+预印本链接: []
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[10_基础与算法/优化方法/索引 - 优化方法|优化方法索引]]
+[[首页|首页]] · [[10_基础与算法/优化方法/总结 - 优化方法|优化方法总结]]
 
 # SVRG - 随机方差缩减梯度
 
@@ -429,10 +453,16 @@ def train_svrg(dataset, model, S, m, eta, batch_size):
     return w
 ```
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[10_基础与算法/优化方法/论文 - Accelerating Stochastic Gradient Descent using Predictive Variance Reduction|论文 - Accelerating Stochastic Gradient Descent using Predictive Variance Reduction]]：从算法推导回到提出该方法的论文。
 - [[40_课程笔记/吴恩达机器学习/梯度下降 - 课程笔记|梯度下降 - 课程笔记]]：回顾全梯度下降，再比较随机梯度与方差缩减。
-- [[50_汇报与写作/索引 - 汇报与写作|汇报与写作索引]]：查看本主题的 PPT 文件与保留版本。
+- [[50_汇报与写作/SVRG/总结 - SVRG汇报|SVRG汇报总结]]：对应主题的 PPT 与讲解材料。
+
+## 论文出处
+
+- [Accelerating Stochastic Gradient Descent using Predictive Variance Reduction](https://papers.nips.cc/paper_files/paper/2013/hash/ac1dd209cbcc5e5d1c6e28598e8cbbe8-Abstract.html)：NIPS，2013，会议论文。
+
+<!-- knowledge-links:end -->

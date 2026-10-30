@@ -4,15 +4,40 @@ aliases:
   - "Feature Importance-aware Transferable Adversarial Attack论文"
 分类: "迁移与特征攻击"
 笔记类型: "论文阅读"
-整理日期: 2026-10-27
-time: 2026-08-25T17:58:00
+整理日期: "2026-10-27"
+time: "2026-08-25T17:58:00"
 tags:
-  - Transferability
-  - FIA
-  - 特征攻击
+  - "Transferability"
+  - "FIA"
+  - "特征攻击"
+  - "知识库/论文阅读"
+  - "主题/迁移与特征攻击"
+状态: "已整理"
+摘要: "围绕“论文 - Feature Importance-Aware Transferable Adversarial Attacks”，整理研究背景与核心问题、核心思想与创新点、关键技术细节。"
+更新日期: "2026-10-30"
+上级目录: "[[30_对抗机器学习/迁移与特征攻击/总结 - 迁移与特征攻击]]"
+相关笔记:
+  - "[[30_对抗机器学习/迁移与特征攻击/Feature Attack - 特征攻击发展历程]]"
+  - "[[30_对抗机器学习/迁移与特征攻击/论文 - Improving Adversarial Transferability via Neuron Attribution-Based Attacks]]"
+  - "[[20_深度学习/网络结构/论文 - Learning Deep Features for Discriminative Localization]]"
+  - "[[30_对抗机器学习/迁移与特征攻击/论文 - Boosting Adversarial Transferability by Achieving Flat Local Maxima]]"
+论文条目:
+  - "[[论文来源目录#fia]]"
+论文标题:
+  - "Feature Importance-Aware Transferable Adversarial Attacks"
+发表载体:
+  - "ICCV"
+发表年份:
+  - "2021"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://openaccess.thecvf.com/content/ICCV2021/html/Wang_Feature_Importance-Aware_Transferable_Adversarial_Attacks_ICCV_2021_paper.html"
+预印本链接: []
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[30_对抗机器学习/迁移与特征攻击/索引 - 迁移与特征攻击|迁移与特征攻击索引]]
+[[首页|首页]] · [[30_对抗机器学习/迁移与特征攻击/总结 - 迁移与特征攻击|迁移与特征攻击总结]]
 
 # 论文 - Feature Importance-Aware Transferable Adversarial Attacks
 
@@ -139,10 +164,17 @@ tags:
 |**性能突破**|在正常模型和防御模型上均大幅超越SOTA，平均提升近10%~13%，可与其他方法（如PIDIM）轻松结合进一步提升。|
 |**实用价值**|可作为评估模型鲁棒性的新基准，为后续防御研究提供更强攻击基线。|
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[30_对抗机器学习/迁移与特征攻击/Feature Attack - 特征攻击发展历程|Feature Attack - 特征攻击发展历程]]：回到特征攻击的研究脉络。
 - [[30_对抗机器学习/迁移与特征攻击/论文 - Improving Adversarial Transferability via Neuron Attribution-Based Attacks|论文 - Improving Adversarial Transferability via Neuron Attribution-Based Attacks]]：比较特征重要性与神经元归因两条迁移攻击路线。
 - [[20_深度学习/网络结构/论文 - Learning Deep Features for Discriminative Localization|论文 - Learning Deep Features for Discriminative Localization]]：联系特征定位、特征重要性与攻击目标的选择。
+- [[30_对抗机器学习/迁移与特征攻击/论文 - Boosting Adversarial Transferability by Achieving Flat Local Maxima|论文 - Boosting Adversarial Transferability by Achieving Flat Local Maxima]]：比较损失几何优化与重要特征攻击。
+
+## 论文出处
+
+- [Feature Importance-Aware Transferable Adversarial Attacks](https://openaccess.thecvf.com/content/ICCV2021/html/Wang_Feature_Importance-Aware_Transferable_Adversarial_Attacks_ICCV_2021_paper.html)：ICCV，2021，会议论文。
+
+<!-- knowledge-links:end -->

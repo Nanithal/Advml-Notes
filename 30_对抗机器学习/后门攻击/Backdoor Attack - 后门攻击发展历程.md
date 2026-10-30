@@ -4,10 +4,28 @@ aliases:
   - "Backdoor Attack：后门攻击发展历程"
 分类: "后门攻击"
 笔记类型: "研究综述"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
+tags:
+  - "知识库/笔记"
+  - "主题/后门攻击"
+状态: "已整理"
+摘要: "围绕“Backdoor Attack - 后门攻击发展历程”，整理深度学习后门攻击的发展历程：从 BadNets 到大模型后门、什么是后门攻击？、第一阶段：2017—2018 年，经典后门攻击的形成。"
+更新日期: "2026-10-30"
+上级目录: "[[30_对抗机器学习/后门攻击/总结 - 后门攻击]]"
+相关笔记:
+  - "[[30_对抗机器学习/领域总览/论文 - Attacks in Adversarial Machine Learning：A Systematic Survey from the Life-cycle Perspective]]"
+  - "[[30_对抗机器学习/领域总览/对抗攻击 - 领域分类]]"
+  - "[[30_对抗机器学习/后门攻击/论文 - LOTUS：Evasive and Resilient Backdoor Attacks through Sub-Partitioning]]"
+论文条目: []
+论文标题: []
+发表载体: []
+发表年份: []
+发表类型: []
+发表链接: []
+预印本链接: []
 ---
 
-[[首页|首页]] · [[30_对抗机器学习/后门攻击/索引 - 后门攻击|后门攻击索引]]
+[[首页|首页]] · [[30_对抗机器学习/后门攻击/总结 - 后门攻击|后门攻击总结]]
 
 # Backdoor Attack - 后门攻击发展历程
 
@@ -515,9 +533,13 @@ BadEncoder 等工作将后门研究拓展到自监督编码器和下游任务，
 
 我的建议是先读 BadNets、Trojaning Attack 和 Neural Cleanse 三篇。 这三篇分别帮助你理解后门的经典范式、已有模型的后门植入问题，以及后门检测的发展起点。掌握它们之后，再沿着触发器多样化、预训练模型和大模型后门这几条路线继续阅读，会更容易看清整个领域的演进逻辑。
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[30_对抗机器学习/领域总览/论文 - Attacks in Adversarial Machine Learning：A Systematic Survey from the Life-cycle Perspective|论文 - Attacks in Adversarial Machine Learning：A Systematic Survey from the Life-cycle Perspective]]：把后门攻击放回机器学习生命周期框架。
 - [[30_对抗机器学习/领域总览/对抗攻击 - 领域分类|对抗攻击 - 领域分类]]：比较训练阶段攻击与推理阶段攻击的分类。
+
+- [[30_对抗机器学习/后门攻击/论文 - LOTUS：Evasive and Resilient Backdoor Attacks through Sub-Partitioning|LOTUS - 子分区与触发聚焦]]：延伸阅读 2024 年子分区条件后门，比较触发器多样化、反演检测与后门清除的关系。
+
+<!-- knowledge-links:end -->

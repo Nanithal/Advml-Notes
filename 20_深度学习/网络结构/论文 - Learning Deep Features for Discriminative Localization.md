@@ -4,17 +4,40 @@ aliases:
   - "Learning Deep Features For Discriminative Localization论文"
 分类: "网络结构"
 笔记类型: "论文阅读"
-整理日期: 2026-10-27
-time: 2026-08-25T17:59:00
+整理日期: "2026-10-27"
+time: "2026-08-25T17:59:00"
 tags:
-  - CAM
-  - GAP
-  - CV
-  - Localization
-  - 神经网络可解释性
+  - "CAM"
+  - "GAP"
+  - "CV"
+  - "Localization"
+  - "神经网络可解释性"
+  - "知识库/论文阅读"
+  - "主题/网络结构"
+状态: "已整理"
+摘要: "围绕“论文 - Learning Deep Features for Discriminative Localization”，整理研究背景与动机、核心方法：类激活映射（CAM）、弱监督目标定位实验（ILSVRC 2014）。"
+更新日期: "2026-10-30"
+上级目录: "[[20_深度学习/网络结构/总结 - 网络结构]]"
+相关笔记:
+  - "[[20_深度学习/网络结构/CNN - 卷积神经网络]]"
+  - "[[30_对抗机器学习/迁移与特征攻击/论文 - Feature Importance-Aware Transferable Adversarial Attacks]]"
+论文条目:
+  - "[[论文来源目录#cam]]"
+论文标题:
+  - "Learning Deep Features for Discriminative Localization"
+发表载体:
+  - "CVPR"
+发表年份:
+  - "2016"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://openaccess.thecvf.com/content_cvpr_2016/html/Zhou_Learning_Deep_Features_CVPR_2016_paper.html"
+预印本链接: []
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[20_深度学习/网络结构/索引 - 网络结构|网络结构索引]]
+[[首页|首页]] · [[20_深度学习/网络结构/总结 - 网络结构|网络结构总结]]
 
 # 论文 - Learning Deep Features for Discriminative Localization
 
@@ -226,11 +249,15 @@ Mc(x,y)=∑kwkcfk(x,y)Mc​(x,y)=k∑​wkc​fk​(x,y)
 
 实验数据也验证了这一点：GoogLeNet-GAP 的定位误差（43.0%）显著低于 GoogLeNet-GMP（45.26%）。
 
-
-
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[20_深度学习/网络结构/CNN - 卷积神经网络|CNN - 卷积神经网络]]：结合卷积特征图理解类激活映射。
 - [[30_对抗机器学习/迁移与特征攻击/论文 - Feature Importance-Aware Transferable Adversarial Attacks|论文 - Feature Importance-Aware Transferable Adversarial Attacks]]：联系特征定位、特征重要性与攻击目标的选择。
+
+## 论文出处
+
+- [Learning Deep Features for Discriminative Localization](https://openaccess.thecvf.com/content_cvpr_2016/html/Zhou_Learning_Deep_Features_CVPR_2016_paper.html)：CVPR，2016，会议论文。
+
+<!-- knowledge-links:end -->

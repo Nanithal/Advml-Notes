@@ -4,14 +4,40 @@ aliases:
   - "Towards Deep Learning Models Resistant to Adversarial  Attacks论文"
 分类: "防御与鲁棒性"
 笔记类型: "论文阅读"
-整理日期: 2026-10-27
-time: 2026-10-05T14:03:00
+整理日期: "2026-10-27"
+time: "2026-10-05T14:03:00"
 tags:
-  - Defence
-  - PGD
+  - "Defence"
+  - "PGD"
+  - "知识库/论文阅读"
+  - "主题/防御与鲁棒性"
+状态: "已整理"
+摘要: "围绕“论文 - Towards Deep Learning Models Resistant to Adversarial Attacks”，整理研究背景与核心问题、核心框架：鞍点公式、问题定义。"
+更新日期: "2026-10-30"
+上级目录: "[[30_对抗机器学习/防御与鲁棒性/总结 - 防御与鲁棒性]]"
+相关笔记:
+  - "[[30_对抗机器学习/攻击方法/论文 - Explaining and Harnessing Adversarial Examples]]"
+  - "[[30_对抗机器学习/防御与鲁棒性/Gradient Masking - 梯度掩蔽详解]]"
+  - "[[30_对抗机器学习/防御与鲁棒性/FFGSM - 快速免费梯度符号法（术语待核对）]]"
+  - "[[30_对抗机器学习/领域总览/Threat Model - 威胁模型详解]]"
+论文条目:
+  - "[[论文来源目录#pgd]]"
+论文标题:
+  - "Towards Deep Learning Models Resistant to Adversarial Attacks"
+发表载体:
+  - "ICLR"
+发表年份:
+  - "2018"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://openreview.net/forum?id=rJzIBfZAb"
+预印本链接:
+  - "https://arxiv.org/abs/1706.06083"
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[30_对抗机器学习/防御与鲁棒性/索引 - 防御与鲁棒性|防御与鲁棒性索引]]
+[[首页|首页]] · [[30_对抗机器学习/防御与鲁棒性/总结 - 防御与鲁棒性|防御与鲁棒性总结]]
 
 # 论文 - Towards Deep Learning Models Resistant to Adversarial Attacks
 
@@ -254,10 +280,18 @@ $$
 | **迁移性分析**            | 更强攻击+更大容量降低迁移攻击成功率。                                                                       |
 | **模型可视化**            | 鲁棒模型学到阈值滤波器和非均匀类别偏置。                                                                      |
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[30_对抗机器学习/攻击方法/论文 - Explaining and Harnessing Adversarial Examples|论文 - Explaining and Harnessing Adversarial Examples]]：对照鲁棒训练中的攻击构造与一步梯度攻击。
 - [[30_对抗机器学习/防御与鲁棒性/Gradient Masking - 梯度掩蔽详解|Gradient Masking - 梯度掩蔽详解]]：区分鲁棒性与梯度掩蔽造成的评估假象。
 - [[30_对抗机器学习/防御与鲁棒性/FFGSM - 快速免费梯度符号法（术语待核对）|FFGSM - 快速免费梯度符号法（术语待核对）]]：原笔记讨论对抗训练成本，可与鲁棒训练框架对照。
+- [[30_对抗机器学习/领域总览/Threat Model - 威胁模型详解|Threat Model - 威胁模型详解]]：核对鲁棒性结论所依赖的威胁模型。
+
+## 论文出处
+
+- [Towards Deep Learning Models Resistant to Adversarial Attacks](https://openreview.net/forum?id=rJzIBfZAb)：ICLR，2018，会议论文。
+  [预印本](https://arxiv.org/abs/1706.06083)。
+
+<!-- knowledge-links:end -->

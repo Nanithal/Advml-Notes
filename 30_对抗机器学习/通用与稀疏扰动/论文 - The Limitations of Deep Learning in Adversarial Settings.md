@@ -4,10 +4,35 @@ aliases:
   - "The Limitations of Deep Learning in Adversarial Settings"
 分类: "通用与稀疏扰动"
 笔记类型: "论文阅读"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
+tags:
+  - "知识库/论文阅读"
+  - "主题/通用与稀疏扰动"
+状态: "已整理"
+摘要: "围绕“论文 - The Limitations of Deep Learning in Adversarial Settings”，整理研究背景与问题、威胁模型分类、攻击目标（从简单到复杂）。"
+更新日期: "2026-10-30"
+上级目录: "[[30_对抗机器学习/通用与稀疏扰动/总结 - 通用与稀疏扰动]]"
+相关笔记:
+  - "[[30_对抗机器学习/通用与稀疏扰动/论文 - Sparse and Imperceivable Adversarial Attacks]]"
+  - "[[30_对抗机器学习/攻击方法/C&W - 对抗攻击详解]]"
+论文条目:
+  - "[[论文来源目录#jsma]]"
+论文标题:
+  - "The Limitations of Deep Learning in Adversarial Settings"
+发表载体:
+  - "IEEE European Symposium on Security and Privacy (EuroS&P)"
+发表年份:
+  - "2016"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://doi.org/10.1109/EuroSP.2016.36"
+预印本链接:
+  - "https://arxiv.org/abs/1511.07528"
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[30_对抗机器学习/通用与稀疏扰动/索引 - 通用与稀疏扰动|通用与稀疏扰动索引]]
+[[首页|首页]] · [[30_对抗机器学习/通用与稀疏扰动/总结 - 通用与稀疏扰动|通用与稀疏扰动总结]]
 
 # 论文 - The Limitations of Deep Learning in Adversarial Settings
 
@@ -226,9 +251,16 @@ aliases:
 |**人类感知**|失真<14.29%时，人类仍能正确识别。|
 |**防御初探**|对抗训练可提升鲁棒性。|
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[30_对抗机器学习/通用与稀疏扰动/论文 - Sparse and Imperceivable Adversarial Attacks|论文 - Sparse and Imperceivable Adversarial Attacks]]：比较不同的稀疏攻击与特征选择方式。
 - [[30_对抗机器学习/攻击方法/C&W - 对抗攻击详解|C&W - 对抗攻击详解]]：对照基于显著图选择特征与优化式攻击的思路。
+
+## 论文出处
+
+- [The Limitations of Deep Learning in Adversarial Settings](https://doi.org/10.1109/EuroSP.2016.36)：IEEE European Symposium on Security and Privacy (EuroS&P)，2016，会议论文。
+  [预印本](https://arxiv.org/abs/1511.07528)。
+
+<!-- knowledge-links:end -->

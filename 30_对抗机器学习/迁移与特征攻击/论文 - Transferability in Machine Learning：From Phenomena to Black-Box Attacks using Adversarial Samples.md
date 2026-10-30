@@ -4,13 +4,42 @@ aliases:
   - "Transferability in Machine Learning：from Phenomena to  Black-Box Attacks using Adversarial Samples论文"
 分类: "迁移与特征攻击"
 笔记类型: "论文阅读"
-整理日期: 2026-10-27
-time: 2026-10-03T17:04:00
+整理日期: "2026-10-27"
+time: "2026-10-03T17:04:00"
 tags:
-  - transferability
+  - "transferability"
+  - "知识库/论文阅读"
+  - "主题/迁移与特征攻击"
+状态: "已整理"
+摘要: "围绕“论文 - Transferability in Machine Learning：From Phenomena to Black-Box Attacks using Adversarial Samples”，整理研究背景与核心问题、威胁模型与迁移性定义、对抗样本生成。"
+更新日期: "2026-10-30"
+上级目录: "[[30_对抗机器学习/迁移与特征攻击/总结 - 迁移与特征攻击]]"
+相关笔记:
+  - "[[30_对抗机器学习/攻击方法/论文 - Boosting Adversarial Attacks with Momentum]]"
+  - "[[30_对抗机器学习/迁移与特征攻击/Feature Attack - 特征攻击发展历程]]"
+  - "[[30_对抗机器学习/ViT与基础模型攻击/ViT Attack - 文献综述与分类]]"
+  - "[[50_汇报与写作/项目汇报/对抗妆容项目 - 汇报稿与答辩素材]]"
+  - "[[30_对抗机器学习/通用与稀疏扰动/论文 - Generalizable Data-Free Objective for Crafting Universal Adversarial Perturbations]]"
+  - "[[30_对抗机器学习/迁移与特征攻击/SGM - 跳跃梯度方法]]"
+  - "[[30_对抗机器学习/迁移与特征攻击/论文 - Boosting Adversarial Transferability by Achieving Flat Local Maxima]]"
+论文条目:
+  - "[[论文来源目录#transfer]]"
+论文标题:
+  - "Transferability in Machine Learning: from Phenomena to Black-Box Attacks using Adversarial Samples"
+发表载体:
+  - "arXiv"
+发表年份:
+  - "2016"
+发表类型:
+  - "预印本"
+发表链接:
+  - "https://arxiv.org/abs/1605.07277"
+预印本链接:
+  - "https://arxiv.org/abs/1605.07277"
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[30_对抗机器学习/迁移与特征攻击/索引 - 迁移与特征攻击|迁移与特征攻击索引]]
+[[首页|首页]] · [[30_对抗机器学习/迁移与特征攻击/总结 - 迁移与特征攻击|迁移与特征攻击总结]]
 
 # 论文 - Transferability in Machine Learning：From Phenomena to Black-Box Attacks using Adversarial Samples
 
@@ -280,7 +309,7 @@ $$\Omega_X(f,f') = \big|\{\,f'(\vec{x}) \neq f'(\vec{x}+\delta_{\vec{x}}): \vec{
 | **新攻击算法**  | 首次提出针对SVM和决策树的对抗样本生成方法。                    |
 | **防御评估**   | 对抗训练对该攻击无效。                                |
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
@@ -289,3 +318,11 @@ $$\Omega_X(f,f') = \big|\{\,f'(\vec{x}) \neq f'(\vec{x}+\delta_{\vec{x}}): \vec{
 - [[30_对抗机器学习/ViT与基础模型攻击/ViT Attack - 文献综述与分类|ViT Attack - 文献综述与分类]]：将迁移问题延伸到 ViT 场景。
 - [[50_汇报与写作/项目汇报/对抗妆容项目 - 汇报稿与答辩素材|对抗妆容项目 - 汇报稿与答辩素材]]：联系项目汇报中的黑盒迁移性评估。
 - [[30_对抗机器学习/通用与稀疏扰动/论文 - Generalizable Data-Free Objective for Crafting Universal Adversarial Perturbations|论文 - Generalizable Data-Free Objective for Crafting Universal Adversarial Perturbations]]：比较图像无关的共享扰动与跨模型迁移两个维度。
+- [[30_对抗机器学习/迁移与特征攻击/SGM - 跳跃梯度方法|SGM - 跳跃梯度方法]]：进一步阅读基于模型反向路径的迁移策略。
+- [[30_对抗机器学习/迁移与特征攻击/论文 - Boosting Adversarial Transferability by Achieving Flat Local Maxima|论文 - Boosting Adversarial Transferability by Achieving Flat Local Maxima]]：补充平坦局部极大值路线的迁移攻击论文。
+
+## 论文出处
+
+- [Transferability in Machine Learning: from Phenomena to Black-Box Attacks using Adversarial Samples](https://arxiv.org/abs/1605.07277)：arXiv，2016，预印本。 该题名当前核实到的记录为预印本，未套用其他黑盒攻击论文的会议记录。
+
+<!-- knowledge-links:end -->

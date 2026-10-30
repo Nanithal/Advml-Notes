@@ -4,10 +4,35 @@ aliases:
   - "DSC：Deep Subspace Clustering"
 分类: "网络结构"
 笔记类型: "概念笔记"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
+tags:
+  - "知识库/笔记"
+  - "主题/网络结构"
+状态: "已整理"
+摘要: "围绕“DSC - 深度子空间聚类”，整理DSC 的整体网络架构全景、编码器（Encoder, $E_\\theta$）、自表达层（Self-Expressive Layer）。"
+更新日期: "2026-10-30"
+上级目录: "[[20_深度学习/网络结构/总结 - 网络结构]]"
+相关笔记:
+  - "[[10_基础与算法/数学基础/Graph Laplacian - 图拉普拉斯矩阵]]"
+  - "[[20_深度学习/网络结构/AE - 自编码器]]"
+  - "[[20_深度学习/网络结构/DEC - 深度嵌入聚类]]"
+论文条目:
+  - "[[论文来源目录#dsc]]"
+论文标题:
+  - "Deep Subspace Clustering Networks"
+发表载体:
+  - "NIPS"
+发表年份:
+  - "2017"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://papers.nips.cc/paper/6608-deep-subspace-clustering-networks"
+预印本链接: []
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[20_深度学习/网络结构/索引 - 网络结构|网络结构索引]]
+[[首页|首页]] · [[20_深度学习/网络结构/总结 - 网络结构|网络结构总结]]
 
 # DSC - 深度子空间聚类
 
@@ -240,10 +265,16 @@ if __name__ == "__main__":
         
     - **Self-Supervised DSC**：结合对比学习（Contrastive Learning），在没有标签的情况下进一步约束隐空间 $Z$ 的表征质量。
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[10_基础与算法/数学基础/Graph Laplacian - 图拉普拉斯矩阵|Graph Laplacian - 图拉普拉斯矩阵]]：联系图结构与深度聚类中的样本关系。
 - [[20_深度学习/网络结构/AE - 自编码器|AE - 自编码器]]：回顾编码器与解码器的基本结构。
 - [[20_深度学习/网络结构/DEC - 深度嵌入聚类|DEC - 深度嵌入聚类]]：比较两种深度聚类建模方式。
+
+## 论文出处
+
+- [Deep Subspace Clustering Networks](https://papers.nips.cc/paper/6608-deep-subspace-clustering-networks)：NIPS，2017，会议论文。
+
+<!-- knowledge-links:end -->

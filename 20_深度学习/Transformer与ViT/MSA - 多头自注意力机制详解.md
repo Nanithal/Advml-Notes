@@ -4,10 +4,37 @@ aliases:
   - "MSA多头自注意力机制详解"
 分类: "Transformer与ViT"
 笔记类型: "概念笔记"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
+tags:
+  - "知识库/笔记"
+  - "主题/Transformer与ViT"
+状态: "已整理"
+摘要: "围绕“MSA - 多头自注意力机制详解”，整理MSA：多头自注意力机制详解、MSA 处理的是什么？、为什么叫“自注意力”？。"
+更新日期: "2026-10-30"
+上级目录: "[[20_深度学习/Transformer与ViT/总结 - Transformer与ViT]]"
+相关笔记:
+  - "[[20_深度学习/Transformer与ViT/Transformer - 入门详解]]"
+  - "[[20_深度学习/Transformer与ViT/Transformer - 原理与代码]]"
+  - "[[20_深度学习/Transformer与ViT/论文 - An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale]]"
+  - "[[20_深度学习/训练基础/Mask - 掩码机制详解]]"
+  - "[[30_对抗机器学习/ViT与基础模型攻击/论文 - Towards Transferable Adversarial Attacks on Vision Transformers]]"
+论文条目:
+  - "[[论文来源目录#transformer]]"
+论文标题:
+  - "Attention Is All You Need"
+发表载体:
+  - "NIPS"
+发表年份:
+  - "2017"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://papers.nips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html"
+预印本链接: []
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[20_深度学习/Transformer与ViT/索引 - Transformer与ViT|Transformer与ViT索引]]
+[[首页|首页]] · [[20_深度学习/Transformer与ViT/总结 - Transformer与ViT|Transformer与ViT总结]]
 
 # MSA - 多头自注意力机制详解
 
@@ -488,11 +515,18 @@ $$
 
 文中的猫图像类比、数值演示和部分维度推演用于辅助理解，不是论文实验结论。
 
-
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[20_深度学习/Transformer与ViT/Transformer - 入门详解|Transformer - 入门详解]]：将多头自注意力放回 Transformer 全局结构。
 - [[20_深度学习/Transformer与ViT/Transformer - 原理与代码|Transformer - 原理与代码]]：把注意力公式对应到张量形状与代码实现。
 - [[20_深度学习/Transformer与ViT/论文 - An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale|论文 - An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale]]：对照自注意力如何作用于图像 patch 序列。
+- [[20_深度学习/训练基础/Mask - 掩码机制详解|Mask - 掩码机制详解]]：区分 Padding、Causal 等掩码的用途。
+- [[30_对抗机器学习/ViT与基础模型攻击/论文 - Towards Transferable Adversarial Attacks on Vision Transformers|论文 - Towards Transferable Adversarial Attacks on Vision Transformers]]：对应 PNA 对注意力梯度分支的处理。
+
+## 论文出处
+
+- [Attention Is All You Need](https://papers.nips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html)：NIPS，2017，会议论文。
+
+<!-- knowledge-links:end -->

@@ -4,10 +4,34 @@ aliases:
   - "CornerSearch"
 分类: "通用与稀疏扰动"
 笔记类型: "概念笔记"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
+tags:
+  - "知识库/笔记"
+  - "主题/通用与稀疏扰动"
+状态: "已整理"
+摘要: "围绕“CornerSearch - 稀疏对抗攻击”，整理核心动机：为什么叫“Corner”（角点）Search？、数学表述与攻击目标、CornerSearch 算法详细流程拆解。"
+更新日期: "2026-10-30"
+上级目录: "[[30_对抗机器学习/通用与稀疏扰动/总结 - 通用与稀疏扰动]]"
+相关笔记:
+  - "[[30_对抗机器学习/通用与稀疏扰动/论文 - Sparse and Imperceivable Adversarial Attacks]]"
+  - "[[30_对抗机器学习/攻击方法/C&W - 对抗攻击详解]]"
+论文条目:
+  - "[[论文来源目录#sparse]]"
+论文标题:
+  - "Sparse and Imperceivable Adversarial Attacks"
+发表载体:
+  - "ICCV"
+发表年份:
+  - "2019"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://openaccess.thecvf.com/content_ICCV_2019/html/Croce_Sparse_and_Imperceivable_Adversarial_Attacks_ICCV_2019_paper.html"
+预印本链接: []
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[30_对抗机器学习/通用与稀疏扰动/索引 - 通用与稀疏扰动|通用与稀疏扰动索引]]
+[[首页|首页]] · [[30_对抗机器学习/通用与稀疏扰动/总结 - 通用与稀疏扰动|通用与稀疏扰动总结]]
 
 # CornerSearch - 稀疏对抗攻击
 
@@ -124,9 +148,15 @@ CornerSearch 的执行过程主要分为两个阶段：**像素敏感度评估�
 |**依赖梯度**|否（纯黑盒）|是（白盒，需雅可比矩阵）|**否（仅需输出 Logits/概率）**|
 |**大图扩展性**|差（在大图上极难收敛）|一般|**优（通过敏感度排序高效筛选）**|
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[30_对抗机器学习/通用与稀疏扰动/论文 - Sparse and Imperceivable Adversarial Attacks|论文 - Sparse and Imperceivable Adversarial Attacks]]：回到提出相关稀疏攻击的论文阅读。
 - [[30_对抗机器学习/攻击方法/C&W - 对抗攻击详解|C&W - 对抗攻击详解]]：比较稀疏搜索与优化式攻击。
+
+## 论文出处
+
+- [Sparse and Imperceivable Adversarial Attacks](https://openaccess.thecvf.com/content_ICCV_2019/html/Croce_Sparse_and_Imperceivable_Adversarial_Attacks_ICCV_2019_paper.html)：ICCV，2019，会议论文。
+
+<!-- knowledge-links:end -->

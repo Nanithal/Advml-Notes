@@ -4,10 +4,36 @@ aliases:
   - "FCN全连接卷积网络"
 分类: "网络结构"
 笔记类型: "概念笔记"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
+tags:
+  - "知识库/笔记"
+  - "主题/网络结构"
+状态: "已整理"
+摘要: "围绕“FCN - 全卷积网络”，整理核心动机：为什么传统 CNN 无法直接做语义分割？、FCN 的三大核心技术创新、全卷积化（Convolutionalization）。"
+更新日期: "2026-10-30"
+上级目录: "[[20_深度学习/网络结构/总结 - 网络结构]]"
+相关笔记:
+  - "[[20_深度学习/网络结构/CNN - 卷积神经网络]]"
+  - "[[20_深度学习/网络结构/论文 - Fully Convolutional Networks for Semantic Segmentation]]"
+  - "[[20_深度学习/网络结构/U-Net - 编码器与解码器分割网络]]"
+  - "[[20_深度学习/网络结构/采样 - 上采样与下采样]]"
+论文条目:
+  - "[[论文来源目录#fcn]]"
+论文标题:
+  - "Fully Convolutional Networks for Semantic Segmentation"
+发表载体:
+  - "CVPR"
+发表年份:
+  - "2015"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://openaccess.thecvf.com/content_cvpr_2015/html/Long_Fully_Convolutional_Networks_2015_CVPR_paper.html"
+预印本链接: []
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[20_深度学习/网络结构/索引 - 网络结构|网络结构索引]]
+[[首页|首页]] · [[20_深度学习/网络结构/总结 - 网络结构|网络结构总结]]
 
 # FCN - 全卷积网络
 
@@ -221,7 +247,7 @@ if __name__ == "__main__":
     
 2. **缺乏多尺度上下文捕获**：对全局上下文信息的利用较弱（促成了 **PSPNet** 空洞空间金字塔池化 ASPP 的引入）。
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
@@ -229,3 +255,9 @@ if __name__ == "__main__":
 - [[20_深度学习/网络结构/论文 - Fully Convolutional Networks for Semantic Segmentation|论文 - Fully Convolutional Networks for Semantic Segmentation]]：从结构讲解回到原论文阅读。
 - [[20_深度学习/网络结构/U-Net - 编码器与解码器分割网络|U-Net - 编码器与解码器分割网络]]：比较两种语义分割网络的结构设计。
 - [[20_深度学习/网络结构/采样 - 上采样与下采样|采样 - 上采样与下采样]]：结合上采样理解像素级输出的恢复。
+
+## 论文出处
+
+- [Fully Convolutional Networks for Semantic Segmentation](https://openaccess.thecvf.com/content_cvpr_2015/html/Long_Fully_Convolutional_Networks_2015_CVPR_paper.html)：CVPR，2015，会议论文。
+
+<!-- knowledge-links:end -->

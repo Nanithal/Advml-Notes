@@ -2,19 +2,45 @@
 title: "MIM - 动量迭代攻击详解"
 aliases:
   - "MIM（动量迭代攻击）详解"
-分类: "对抗攻击方法"
+分类: "攻击方法"
 笔记类型: "概念笔记"
-整理日期: 2026-10-27
-created: 2026-10-23
+整理日期: "2026-10-27"
+created: "2026-10-23"
 tags:
-  - 对抗攻击
-  - MIM
-  - MI-FGSM
-  - 动量
-  - 迁移攻击
+  - "对抗攻击"
+  - "MIM"
+  - "MI-FGSM"
+  - "动量"
+  - "迁移攻击"
+  - "知识库/笔记"
+  - "主题/攻击方法"
+状态: "已整理"
+摘要: "围绕“MIM - 动量迭代攻击详解”，整理MIM（动量迭代攻击）详解、MIM 到底做了什么、先把攻击目标写清楚。"
+更新日期: "2026-10-30"
+上级目录: "[[30_对抗机器学习/攻击方法/总结 - 攻击方法]]"
+相关笔记:
+  - "[[30_对抗机器学习/攻击方法/MI-FGSM - 动量迭代攻击（早期阅读笔记）]]"
+  - "[[30_对抗机器学习/攻击方法/论文 - Boosting Adversarial Attacks with Momentum]]"
+  - "[[10_基础与算法/优化方法/Momentum - 带动量的梯度下降]]"
+  - "[[30_对抗机器学习/迁移与特征攻击/论文 - Boosting Adversarial Transferability by Achieving Flat Local Maxima]]"
+论文条目:
+  - "[[论文来源目录#mifgsm]]"
+论文标题:
+  - "Boosting Adversarial Attacks with Momentum"
+发表载体:
+  - "CVPR"
+发表年份:
+  - "2018"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://openaccess.thecvf.com/content_cvpr_2018/html/Dong_Boosting_Adversarial_Attacks_CVPR_2018_paper.html"
+预印本链接:
+  - "https://arxiv.org/abs/1710.06081"
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[30_对抗机器学习/攻击方法/索引 - 对抗攻击方法|对抗攻击方法索引]]
+[[首页|首页]] · [[30_对抗机器学习/攻击方法/总结 - 攻击方法|攻击方法总结]]
 
 # MIM - 动量迭代攻击详解
 
@@ -436,11 +462,18 @@ $$
 
 本文将原始梯度与动量分开命名，显式加入图像边界和预算投影；二维数字是教学示例，代码是参考实现，均不应当作原论文实验数据。
 
-
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[30_对抗机器学习/攻击方法/MI-FGSM - 动量迭代攻击（早期阅读笔记）|MI-FGSM - 动量迭代攻击（早期阅读笔记）]]：比较早期记录与后续详细推导。
 - [[30_对抗机器学习/攻击方法/论文 - Boosting Adversarial Attacks with Momentum|论文 - Boosting Adversarial Attacks with Momentum]]：回到动量迭代攻击的论文阅读。
 - [[10_基础与算法/优化方法/Momentum - 带动量的梯度下降|Momentum - 带动量的梯度下降]]：回顾动量平均与历史方向累积。
+- [[30_对抗机器学习/迁移与特征攻击/论文 - Boosting Adversarial Transferability by Achieving Flat Local Maxima|论文 - Boosting Adversarial Transferability by Achieving Flat Local Maxima]]：比较动量累积与梯度范数惩罚的更新思路。
+
+## 论文出处
+
+- [Boosting Adversarial Attacks with Momentum](https://openaccess.thecvf.com/content_cvpr_2018/html/Dong_Boosting_Adversarial_Attacks_CVPR_2018_paper.html)：CVPR，2018，会议论文。
+  [预印本](https://arxiv.org/abs/1710.06081)。
+
+<!-- knowledge-links:end -->

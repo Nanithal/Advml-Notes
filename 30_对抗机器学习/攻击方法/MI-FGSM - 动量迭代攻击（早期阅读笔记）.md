@@ -2,12 +2,37 @@
 title: "MI-FGSM - 动量迭代攻击（早期阅读笔记）"
 aliases:
   - "MI-FGSM"
-分类: "对抗攻击方法"
+分类: "攻击方法"
 笔记类型: "概念笔记"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
+tags:
+  - "知识库/笔记"
+  - "主题/攻击方法"
+状态: "已整理"
+摘要: "围绕“MI-FGSM - 动量迭代攻击（早期阅读笔记）”，整理对抗攻击简介、现有对抗攻击方法的不足、MI-FGSM与其他方法的不同。"
+更新日期: "2026-10-30"
+上级目录: "[[30_对抗机器学习/攻击方法/总结 - 攻击方法]]"
+相关笔记:
+  - "[[30_对抗机器学习/攻击方法/论文 - Boosting Adversarial Attacks with Momentum]]"
+  - "[[30_对抗机器学习/攻击方法/MIM - 动量迭代攻击详解]]"
+论文条目:
+  - "[[论文来源目录#mifgsm]]"
+论文标题:
+  - "Boosting Adversarial Attacks with Momentum"
+发表载体:
+  - "CVPR"
+发表年份:
+  - "2018"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://openaccess.thecvf.com/content_cvpr_2018/html/Dong_Boosting_Adversarial_Attacks_CVPR_2018_paper.html"
+预印本链接:
+  - "https://arxiv.org/abs/1710.06081"
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[30_对抗机器学习/攻击方法/索引 - 对抗攻击方法|对抗攻击方法索引]]
+[[首页|首页]] · [[30_对抗机器学习/攻击方法/总结 - 攻击方法|攻击方法总结]]
 
 # MI-FGSM - 动量迭代攻击（早期阅读笔记）
 
@@ -115,10 +140,16 @@ aliases:
 
 动量迭代方法可以很容易地推广到其他攻击设置。通过用所有先前步骤的累积梯度替换当前梯度，任何迭代方法都可以扩展为其动量变体。
 
-
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[30_对抗机器学习/攻击方法/论文 - Boosting Adversarial Attacks with Momentum|论文 - Boosting Adversarial Attacks with Momentum]]：早期阅读记录对应的论文总结。
 - [[30_对抗机器学习/攻击方法/MIM - 动量迭代攻击详解|MIM - 动量迭代攻击详解]]：比较早期记录与后续详细推导。
+
+## 论文出处
+
+- [Boosting Adversarial Attacks with Momentum](https://openaccess.thecvf.com/content_cvpr_2018/html/Dong_Boosting_Adversarial_Attacks_CVPR_2018_paper.html)：CVPR，2018，会议论文。
+  [预印本](https://arxiv.org/abs/1710.06081)。
+
+<!-- knowledge-links:end -->

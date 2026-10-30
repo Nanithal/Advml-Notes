@@ -4,10 +4,33 @@ aliases:
   - "Accelerating Stochastic Gradient Descent using  Predictive Variance Reduction论文"
 分类: "优化方法"
 笔记类型: "论文阅读"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
+tags:
+  - "知识库/论文阅读"
+  - "主题/优化方法"
+状态: "已整理"
+摘要: "围绕“论文 - Accelerating Stochastic Gradient Descent using Predictive Variance Reduction”，整理研究背景与问题、SVRG 算法、核心思想。"
+更新日期: "2026-10-30"
+上级目录: "[[10_基础与算法/优化方法/总结 - 优化方法]]"
+相关笔记:
+  - "[[10_基础与算法/优化方法/SVRG - 随机方差缩减梯度]]"
+论文条目:
+  - "[[论文来源目录#svrg]]"
+论文标题:
+  - "Accelerating Stochastic Gradient Descent using Predictive Variance Reduction"
+发表载体:
+  - "NIPS"
+发表年份:
+  - "2013"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://papers.nips.cc/paper_files/paper/2013/hash/ac1dd209cbcc5e5d1c6e28598e8cbbe8-Abstract.html"
+预印本链接: []
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[10_基础与算法/优化方法/索引 - 优化方法|优化方法索引]]
+[[首页|首页]] · [[10_基础与算法/优化方法/总结 - 优化方法|优化方法总结]]
 
 # 论文 - Accelerating Stochastic Gradient Descent using Predictive Variance Reduction
 
@@ -159,8 +182,14 @@ $$P(w) = \frac1n \sum_{i=1}^n \phi_i(w) + \frac{\lambda}{2}\|w\|^2$$
 |**统一视角**|将 SDCA 也解释为方差缩减方法，促进算法理解与改进。|
 |**实验验证**|在多个凸/非凸数据集上优于最佳调参 SGD，与 SDCA 相当。|
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[10_基础与算法/优化方法/SVRG - 随机方差缩减梯度|SVRG - 随机方差缩减梯度]]：结合算法笔记复习控制变量与方差缩减。
+
+## 论文出处
+
+- [Accelerating Stochastic Gradient Descent using Predictive Variance Reduction](https://papers.nips.cc/paper_files/paper/2013/hash/ac1dd209cbcc5e5d1c6e28598e8cbbe8-Abstract.html)：NIPS，2013，会议论文。
+
+<!-- knowledge-links:end -->

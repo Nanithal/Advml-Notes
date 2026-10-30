@@ -4,10 +4,43 @@ aliases:
   - "Gradient_Masking梯度掩蔽详解"
 分类: "防御与鲁棒性"
 笔记类型: "概念笔记"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
+tags:
+  - "知识库/笔记"
+  - "主题/防御与鲁棒性"
+状态: "已整理"
+摘要: "围绕“Gradient Masking - 梯度掩蔽详解”，整理Gradient Masking（梯度掩蔽）详解、Gradient masking 是什么？、与 gradient obfuscation 的关系。"
+更新日期: "2026-10-30"
+上级目录: "[[30_对抗机器学习/防御与鲁棒性/总结 - 防御与鲁棒性]]"
+相关笔记:
+  - "[[30_对抗机器学习/攻击方法/C&W - 对抗攻击详解]]"
+  - "[[30_对抗机器学习/防御与鲁棒性/论文 - Towards Deep Learning Models Resistant to Adversarial Attacks]]"
+  - "[[20_深度学习/训练基础/Mask - 掩码机制详解]]"
+论文条目:
+  - "[[论文来源目录#pgd]]"
+  - "[[论文来源目录#cw]]"
+论文标题:
+  - "Towards Deep Learning Models Resistant to Adversarial Attacks"
+  - "Towards Evaluating the Robustness of Neural Networks"
+发表载体:
+  - "ICLR"
+  - "IEEE Symposium on Security and Privacy (S&P)"
+发表年份:
+  - "2018"
+  - "2017"
+发表类型:
+  - "会议论文"
+  - "会议论文"
+发表链接:
+  - "https://openreview.net/forum?id=rJzIBfZAb"
+  - "https://doi.org/10.1109/SP.2017.49"
+预印本链接:
+  - "https://arxiv.org/abs/1706.06083"
+  - "https://arxiv.org/abs/1608.04644"
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[30_对抗机器学习/防御与鲁棒性/索引 - 防御与鲁棒性|防御与鲁棒性索引]]
+[[首页|首页]] · [[30_对抗机器学习/防御与鲁棒性/总结 - 防御与鲁棒性|防御与鲁棒性总结]]
 
 # Gradient Masking - 梯度掩蔽详解
 
@@ -462,10 +495,19 @@ $$
    - [作者代码](https://github.com/carlini/nn_robust_attacks)
    - 联系 C&W 损失与防御蒸馏案例阅读。
 
-
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[30_对抗机器学习/攻击方法/C&W - 对抗攻击详解|C&W - 对抗攻击详解]]：对照优化式攻击的目标与评估方式。
 - [[30_对抗机器学习/防御与鲁棒性/论文 - Towards Deep Learning Models Resistant to Adversarial Attacks|论文 - Towards Deep Learning Models Resistant to Adversarial Attacks]]：区分鲁棒性与梯度掩蔽造成的评估假象。
+- [[20_深度学习/训练基础/Mask - 掩码机制详解|Mask - 掩码机制详解]]：区分计算掩码与梯度掩蔽这两个概念。
+
+## 论文出处
+
+- [Towards Deep Learning Models Resistant to Adversarial Attacks](https://openreview.net/forum?id=rJzIBfZAb)：ICLR，2018，会议论文。
+  [预印本](https://arxiv.org/abs/1706.06083)。
+- [Towards Evaluating the Robustness of Neural Networks](https://doi.org/10.1109/SP.2017.49)：IEEE Symposium on Security and Privacy (S&P)，2017，会议论文。
+  [预印本](https://arxiv.org/abs/1608.04644)。
+
+<!-- knowledge-links:end -->

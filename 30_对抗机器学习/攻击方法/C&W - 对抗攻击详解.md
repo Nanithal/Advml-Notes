@@ -2,12 +2,53 @@
 title: "C&W - 对抗攻击详解"
 aliases:
   - "CW攻击方法详解"
-分类: "对抗攻击方法"
+分类: "攻击方法"
 笔记类型: "概念笔记"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
+tags:
+  - "知识库/笔记"
+  - "主题/攻击方法"
+状态: "已整理"
+摘要: "围绕“C&W - 对抗攻击详解”，整理C&W 对抗攻击方法详解、C&W 是什么？、先统一符号。"
+更新日期: "2026-10-30"
+上级目录: "[[30_对抗机器学习/攻击方法/总结 - 攻击方法]]"
+相关笔记:
+  - "[[30_对抗机器学习/攻击方法/论文 - Explaining and Harnessing Adversarial Examples]]"
+  - "[[30_对抗机器学习/防御与鲁棒性/Gradient Masking - 梯度掩蔽详解]]"
+  - "[[30_对抗机器学习/通用与稀疏扰动/CornerSearch - 稀疏对抗攻击]]"
+  - "[[30_对抗机器学习/通用与稀疏扰动/论文 - The Limitations of Deep Learning in Adversarial Settings]]"
+论文条目:
+  - "[[论文来源目录#fgsm]]"
+  - "[[论文来源目录#pgd]]"
+  - "[[论文来源目录#cw]]"
+论文标题:
+  - "Explaining and Harnessing Adversarial Examples"
+  - "Towards Deep Learning Models Resistant to Adversarial Attacks"
+  - "Towards Evaluating the Robustness of Neural Networks"
+发表载体:
+  - "ICLR"
+  - "ICLR"
+  - "IEEE Symposium on Security and Privacy (S&P)"
+发表年份:
+  - "2015"
+  - "2018"
+  - "2017"
+发表类型:
+  - "会议论文"
+  - "会议论文"
+  - "会议论文"
+发表链接:
+  - "https://iclr.cc/archive/www/2015.html"
+  - "https://openreview.net/forum?id=rJzIBfZAb"
+  - "https://doi.org/10.1109/SP.2017.49"
+预印本链接:
+  - "https://arxiv.org/abs/1412.6572"
+  - "https://arxiv.org/abs/1706.06083"
+  - "https://arxiv.org/abs/1608.04644"
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[30_对抗机器学习/攻击方法/索引 - 对抗攻击方法|对抗攻击方法索引]]
+[[首页|首页]] · [[30_对抗机器学习/攻击方法/总结 - 攻击方法|攻击方法总结]]
 
 # C&W - 对抗攻击详解
 
@@ -425,8 +466,7 @@ $$
 
 > 本文没有复现实验。所有示例分数与一维模型均为教学构造，不代表真实模型的攻击成功率或扰动水平。
 
-
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
@@ -434,3 +474,14 @@ $$
 - [[30_对抗机器学习/防御与鲁棒性/Gradient Masking - 梯度掩蔽详解|Gradient Masking - 梯度掩蔽详解]]：结合强攻击与梯度问题理解鲁棒性评估。
 - [[30_对抗机器学习/通用与稀疏扰动/CornerSearch - 稀疏对抗攻击|CornerSearch - 稀疏对抗攻击]]：比较稀疏搜索与优化式攻击。
 - [[30_对抗机器学习/通用与稀疏扰动/论文 - The Limitations of Deep Learning in Adversarial Settings|论文 - The Limitations of Deep Learning in Adversarial Settings]]：对照基于显著图选择特征与优化式攻击的思路。
+
+## 论文出处
+
+- [Explaining and Harnessing Adversarial Examples](https://iclr.cc/archive/www/2015.html)：ICLR，2015，会议论文。 早期 ICLR 论文以官方会议接收目录为发表记录，论文全文见预印本链接。
+  [预印本](https://arxiv.org/abs/1412.6572)。
+- [Towards Deep Learning Models Resistant to Adversarial Attacks](https://openreview.net/forum?id=rJzIBfZAb)：ICLR，2018，会议论文。
+  [预印本](https://arxiv.org/abs/1706.06083)。
+- [Towards Evaluating the Robustness of Neural Networks](https://doi.org/10.1109/SP.2017.49)：IEEE Symposium on Security and Privacy (S&P)，2017，会议论文。
+  [预印本](https://arxiv.org/abs/1608.04644)。
+
+<!-- knowledge-links:end -->

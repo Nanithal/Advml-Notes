@@ -4,15 +4,39 @@ aliases:
   - "Universal adversarial perturbations"
 分类: "通用与稀疏扰动"
 笔记类型: "论文阅读"
-整理日期: 2026-10-27
-time: 2026-08-25T18:08:00
+整理日期: "2026-10-27"
+time: "2026-08-25T18:08:00"
 tags:
-  - 通用攻击
-  - 数据依赖
-  - UAP
+  - "通用攻击"
+  - "数据依赖"
+  - "UAP"
+  - "知识库/论文阅读"
+  - "主题/通用与稀疏扰动"
+状态: "已整理"
+摘要: "围绕“论文 - Universal Adversarial Perturbations”，整理核心发现、问题定义、算法流程（迭代构建）。"
+更新日期: "2026-10-30"
+上级目录: "[[30_对抗机器学习/通用与稀疏扰动/总结 - 通用与稀疏扰动]]"
+相关笔记:
+  - "[[30_对抗机器学习/攻击方法/论文 - DeepFool：A Simple and Accurate Method to Fool Deep Neural Networks]]"
+  - "[[30_对抗机器学习/通用与稀疏扰动/论文 - Generalizable Data-Free Objective for Crafting Universal Adversarial Perturbations]]"
+  - "[[30_对抗机器学习/通用与稀疏扰动/论文 - Data-Free Universal Adversarial Perturbation and Black-Box Attack]]"
+论文条目:
+  - "[[论文来源目录#uap]]"
+论文标题:
+  - "Universal Adversarial Perturbations"
+发表载体:
+  - "CVPR"
+发表年份:
+  - "2017"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://openaccess.thecvf.com/content_cvpr_2017/html/Moosavi-Dezfooli_Universal_Adversarial_Perturbations_CVPR_2017_paper.html"
+预印本链接: []
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[30_对抗机器学习/通用与稀疏扰动/索引 - 通用与稀疏扰动|通用与稀疏扰动索引]]
+[[首页|首页]] · [[30_对抗机器学习/通用与稀疏扰动/总结 - 通用与稀疏扰动|通用与稀疏扰动总结]]
 
 # 论文 - Universal Adversarial Perturbations
 
@@ -163,9 +187,16 @@ tags:
 
 这是一篇极具影响力的经典论文，它打破了“对抗扰动必须逐图像定制”的传统认知，展示了**单一固定扰动**即可大规模攻击深度网络的现实可能性。其几何分析为后续研究对抗样本的迁移性和模型鲁棒性提供了重要理论基础。
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
 - [[30_对抗机器学习/攻击方法/论文 - DeepFool：A Simple and Accurate Method to Fool Deep Neural Networks|论文 - DeepFool：A Simple and Accurate Method to Fool Deep Neural Networks]]：对照逐样本攻击与共享扰动的构造。
 - [[30_对抗机器学习/通用与稀疏扰动/论文 - Generalizable Data-Free Objective for Crafting Universal Adversarial Perturbations|论文 - Generalizable Data-Free Objective for Crafting Universal Adversarial Perturbations]]：从通用扰动进入数据无关的通用扰动目标。
+- [[30_对抗机器学习/通用与稀疏扰动/论文 - Data-Free Universal Adversarial Perturbation and Black-Box Attack|论文 - Data-Free Universal Adversarial Perturbation and Black-Box Attack]]：进一步阅读无数据通用扰动与黑盒攻击。
+
+## 论文出处
+
+- [Universal Adversarial Perturbations](https://openaccess.thecvf.com/content_cvpr_2017/html/Moosavi-Dezfooli_Universal_Adversarial_Perturbations_CVPR_2017_paper.html)：CVPR，2017，会议论文。
+
+<!-- knowledge-links:end -->

@@ -2,17 +2,46 @@
 title: "论文 - Explaining and Harnessing Adversarial Examples"
 aliases:
   - "Explaining And Harnessing Adversarial Examples论文"
-分类: "对抗攻击方法"
+分类: "攻击方法"
 笔记类型: "论文阅读"
-整理日期: 2026-10-27
-time: 2026-08-26T11:39:00
+整理日期: "2026-10-27"
+time: "2026-08-26T11:39:00"
 tags:
-  - 对抗攻击
-  - 对抗样本
-  - FGSM
+  - "对抗攻击"
+  - "对抗样本"
+  - "FGSM"
+  - "知识库/论文阅读"
+  - "主题/攻击方法"
+状态: "已整理"
+摘要: "围绕“论文 - Explaining and Harnessing Adversarial Examples”，整理研究背景与核心问题、线性解释（核心理论贡献）、快速生成方法：FGSM（Fast Gradient Sign Method）。"
+更新日期: "2026-10-30"
+上级目录: "[[30_对抗机器学习/攻击方法/总结 - 攻击方法]]"
+相关笔记:
+  - "[[30_对抗机器学习/领域总览/对抗攻击 - 开创性工作阅读笔记]]"
+  - "[[30_对抗机器学习/攻击方法/论文 - Boosting Adversarial Attacks with Momentum]]"
+  - "[[30_对抗机器学习/攻击方法/论文 - DeepFool：A Simple and Accurate Method to Fool Deep Neural Networks]]"
+  - "[[30_对抗机器学习/攻击方法/C&W - 对抗攻击详解]]"
+  - "[[30_对抗机器学习/防御与鲁棒性/论文 - Towards Deep Learning Models Resistant to Adversarial Attacks]]"
+  - "[[30_对抗机器学习/防御与鲁棒性/FFGSM - 快速免费梯度符号法（术语待核对）]]"
+  - "[[30_对抗机器学习/领域总览/Threat Model - 威胁模型详解]]"
+论文条目:
+  - "[[论文来源目录#fgsm]]"
+论文标题:
+  - "Explaining and Harnessing Adversarial Examples"
+发表载体:
+  - "ICLR"
+发表年份:
+  - "2015"
+发表类型:
+  - "会议论文"
+发表链接:
+  - "https://iclr.cc/archive/www/2015.html"
+预印本链接:
+  - "https://arxiv.org/abs/1412.6572"
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[30_对抗机器学习/攻击方法/索引 - 对抗攻击方法|对抗攻击方法索引]]
+[[首页|首页]] · [[30_对抗机器学习/攻击方法/总结 - 攻击方法|攻击方法总结]]
 
 # 论文 - Explaining and Harnessing Adversarial Examples
 
@@ -310,7 +339,7 @@ $$x^{adv} = \mathrm{clip}\big(x^{adv},\,0,\,1\big)$$
 
 总结一句话：**FGSM = 把损失对输入的梯度取符号，再乘以一个极小的 $\epsilon$ 加到原图上——利用高维空间线性累加效应，让模型上当。**
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
@@ -320,3 +349,11 @@ $$x^{adv} = \mathrm{clip}\big(x^{adv},\,0,\,1\big)$$
 - [[30_对抗机器学习/攻击方法/C&W - 对抗攻击详解|C&W - 对抗攻击详解]]：比较优化式攻击与梯度符号攻击。
 - [[30_对抗机器学习/防御与鲁棒性/论文 - Towards Deep Learning Models Resistant to Adversarial Attacks|论文 - Towards Deep Learning Models Resistant to Adversarial Attacks]]：对照鲁棒训练中的攻击构造与一步梯度攻击。
 - [[30_对抗机器学习/防御与鲁棒性/FFGSM - 快速免费梯度符号法（术语待核对）|FFGSM - 快速免费梯度符号法（术语待核对）]]：原文件名与正文涉及不同术语，需回原文核对。
+- [[30_对抗机器学习/领域总览/Threat Model - 威胁模型详解|Threat Model - 威胁模型详解]]：先明确攻击者知识和扰动预算。
+
+## 论文出处
+
+- [Explaining and Harnessing Adversarial Examples](https://iclr.cc/archive/www/2015.html)：ICLR，2015，会议论文。 早期 ICLR 论文以官方会议接收目录为发表记录，论文全文见预印本链接。
+  [预印本](https://arxiv.org/abs/1412.6572)。
+
+<!-- knowledge-links:end -->

@@ -4,10 +4,42 @@ aliases:
   - "特征攻击feature attack"
 分类: "迁移与特征攻击"
 笔记类型: "研究综述"
-整理日期: 2026-10-27
+整理日期: "2026-10-27"
+tags:
+  - "知识库/笔记"
+  - "主题/迁移与特征攻击"
+状态: "已整理"
+摘要: "围绕“Feature Attack - 特征攻击发展历程”，整理先明确：什么叫“特征攻击”？、整个发展历程可以分成六个阶段、第一阶段：像素空间攻击是特征攻击的起点。"
+更新日期: "2026-10-30"
+上级目录: "[[30_对抗机器学习/迁移与特征攻击/总结 - 迁移与特征攻击]]"
+相关笔记:
+  - "[[30_对抗机器学习/迁移与特征攻击/论文 - Transferability in Machine Learning：From Phenomena to Black-Box Attacks using Adversarial Samples]]"
+  - "[[30_对抗机器学习/迁移与特征攻击/论文 - Feature Importance-Aware Transferable Adversarial Attacks]]"
+  - "[[30_对抗机器学习/迁移与特征攻击/论文 - Improving Adversarial Transferability via Neuron Attribution-Based Attacks]]"
+  - "[[50_汇报与写作/项目汇报/对抗妆容项目 - 汇报稿与答辩素材]]"
+论文条目:
+  - "[[论文来源目录#fia]]"
+  - "[[论文来源目录#naa]]"
+论文标题:
+  - "Feature Importance-Aware Transferable Adversarial Attacks"
+  - "Improving Adversarial Transferability via Neuron Attribution-Based Attacks"
+发表载体:
+  - "ICCV"
+  - "CVPR"
+发表年份:
+  - "2021"
+  - "2022"
+发表类型:
+  - "会议论文"
+  - "会议论文"
+发表链接:
+  - "https://openaccess.thecvf.com/content/ICCV2021/html/Wang_Feature_Importance-Aware_Transferable_Adversarial_Attacks_ICCV_2021_paper.html"
+  - "https://openaccess.thecvf.com/content/CVPR2022/html/Zhang_Improving_Adversarial_Transferability_via_Neuron_Attribution-Based_Attacks_CVPR_2022_paper.html"
+预印本链接: []
+来源核实日期: "2026-10-30"
 ---
 
-[[首页|首页]] · [[30_对抗机器学习/迁移与特征攻击/索引 - 迁移与特征攻击|迁移与特征攻击索引]]
+[[首页|首页]] · [[30_对抗机器学习/迁移与特征攻击/总结 - 迁移与特征攻击|迁移与特征攻击总结]]
 
 # Feature Attack - 特征攻击发展历程
 
@@ -1549,7 +1581,7 @@ Feature Attack
 
 如果你的目标是**写论文/开题报告**，下一步最有价值的是把这条线进一步扩成**“2013–2026 年代表论文时间轴 + 每篇论文的核心公式 + 优缺点 + 是否有 GitHub 代码 + 常用数据集（ImageNet/CIFAR-10 等）”**，这样就可以直接作为 Related Work 和研究现状的框架。
 
----
+<!-- knowledge-links:start -->
 
 ## 笔记联系
 
@@ -1557,3 +1589,10 @@ Feature Attack
 - [[30_对抗机器学习/迁移与特征攻击/论文 - Feature Importance-Aware Transferable Adversarial Attacks|论文 - Feature Importance-Aware Transferable Adversarial Attacks]]：从发展脉络进入特征重要性感知攻击论文。
 - [[30_对抗机器学习/迁移与特征攻击/论文 - Improving Adversarial Transferability via Neuron Attribution-Based Attacks|论文 - Improving Adversarial Transferability via Neuron Attribution-Based Attacks]]：从发展脉络进入神经元归因攻击论文。
 - [[50_汇报与写作/项目汇报/对抗妆容项目 - 汇报稿与答辩素材|对抗妆容项目 - 汇报稿与答辩素材]]：联系项目中的特征、语义与对抗目标。
+
+## 论文出处
+
+- [Feature Importance-Aware Transferable Adversarial Attacks](https://openaccess.thecvf.com/content/ICCV2021/html/Wang_Feature_Importance-Aware_Transferable_Adversarial_Attacks_ICCV_2021_paper.html)：ICCV，2021，会议论文。
+- [Improving Adversarial Transferability via Neuron Attribution-Based Attacks](https://openaccess.thecvf.com/content/CVPR2022/html/Zhang_Improving_Adversarial_Transferability_via_Neuron_Attribution-Based_Attacks_CVPR_2022_paper.html)：CVPR，2022，会议论文。
+
+<!-- knowledge-links:end -->
