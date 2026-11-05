@@ -8,7 +8,7 @@ tags:
 笔记类型: "目录总结"
 分类: "ViT与基础模型攻击"
 状态: "已整理"
-摘要: "先比较 ViT 的白盒鲁棒性与跨架构迁移，再阅读 Token 攻击以及 PNA/PatchOut 等结构感知方法，最后借助综述扩展到 SAM 和视觉语言模型。"
+摘要: "串联 ViT 鲁棒性、结构感知迁移攻击、SAM 与视觉语言攻击，并以 SADCA 理解动态图文交互和语义增强的迁移效果。"
 更新日期: "2026-10-30"
 上级目录: "[[30_对抗机器学习/总结 - 对抗机器学习]]"
 相关笔记:
@@ -20,6 +20,7 @@ tags:
   - "[[30_对抗机器学习/ViT与基础模型攻击/论文 - Adversarial Token Attacks on Vision Transformers]]"
   - "[[30_对抗机器学习/ViT与基础模型攻击/论文 - On the Robustness of Vision Transformers to Adversarial Examples]]"
   - "[[30_对抗机器学习/ViT与基础模型攻击/论文 - Towards Transferable Adversarial Attacks on Vision Transformers]]"
+  - "[[30_对抗机器学习/ViT与基础模型攻击/论文 - Towards Highly Transferable Vision-Language Attack via Semantic-Augmented Dynamic Contrastive Interaction]]"
 论文条目:
   - "[[论文来源目录#sam]]"
   - "[[论文来源目录#clip]]"
@@ -31,6 +32,7 @@ tags:
   - "[[论文来源目录#tgr]]"
   - "[[论文来源目录#mig]]"
   - "[[论文来源目录#vdc]]"
+  - "[[论文来源目录#sadca]]"
 论文标题:
   - "Segment Anything"
   - "Learning Transferable Visual Models From Natural Language Supervision"
@@ -42,6 +44,7 @@ tags:
   - "Transferable Adversarial Attacks on Vision Transformers with Token Gradient Regularization"
   - "Transferable Adversarial Attack for Both Vision Transformers and Convolutional Networks via Momentum Integrated Gradients"
   - "Improving the Adversarial Transferability of Vision Transformers with Virtual Dense Connection"
+  - "Towards Highly Transferable Vision-Language Attack via Semantic-Augmented Dynamic Contrastive Interaction"
 发表载体:
   - "ICCV"
   - "ICML"
@@ -53,6 +56,7 @@ tags:
   - "CVPR"
   - "ICCV"
   - "AAAI"
+  - "CVPR"
 发表年份:
   - "2023"
   - "2021"
@@ -64,12 +68,14 @@ tags:
   - "2023"
   - "2023"
   - "2024"
+  - "2026"
 发表类型:
   - "会议论文"
   - "会议论文"
   - "会议论文"
   - "会议论文"
   - "研讨会论文"
+  - "会议论文"
   - "会议论文"
   - "会议论文"
   - "会议论文"
@@ -86,11 +92,13 @@ tags:
   - "https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Transferable_Adversarial_Attacks_on_Vision_Transformers_With_Token_Gradient_Regularization_CVPR_2023_paper.html"
   - "https://openaccess.thecvf.com/content/ICCV2023/html/Ma_Transferable_Adversarial_Attack_for_Both_Vision_Transformers_and_Convolutional_Networks_ICCV_2023_paper.html"
   - "https://ojs.aaai.org/index.php/AAAI/article/view/28541"
+  - "https://openaccess.thecvf.com/content/CVPR2026/html/Li_Towards_Highly_Transferable_Vision-Language_Attack_via_Semantic-Augmented_Dynamic_Contrastive_Interaction_CVPR_2026_paper.html"
 预印本链接:
   - "https://arxiv.org/abs/2010.11929"
   - "https://arxiv.org/abs/2110.04337"
   - "https://arxiv.org/abs/2109.04176"
   - "https://arxiv.org/abs/2203.08392"
+  - "https://arxiv.org/abs/2603.04839"
 来源核实日期: "2026-10-30"
 ---
 
@@ -105,10 +113,13 @@ tags:
 - 将 Token 的扰动约束与 PatchOut 的优化机制区分。
 - 阅读 ViT 攻击前可回到多头注意力和掩码机制。
 - 比较结论时同时查看威胁模型与 Top-1 等指标定义。
+- 阅读 SADCA 时区分跨模型检索、跨任务迁移与大型视觉语言模型的图文判断评估。
 
 ## 建议阅读路线
 
 [[20_深度学习/Transformer与ViT/论文 - An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale|论文 - An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale]] → [[30_对抗机器学习/ViT与基础模型攻击/ViT Attack - 发展历程|ViT Attack - 发展历程]] → [[30_对抗机器学习/ViT与基础模型攻击/ViT Attack - 文献综述与分类|ViT Attack - 文献综述与分类]] → [[30_对抗机器学习/ViT与基础模型攻击/ViT Attack - 文献资料与研究问题|ViT Attack - 文献资料与研究问题]] → [[30_对抗机器学习/ViT与基础模型攻击/SAM Attack - 分割基础模型攻击发展历程|SAM Attack - 分割基础模型攻击发展历程]] → [[30_对抗机器学习/ViT与基础模型攻击/VLM Attack - 视觉语言模型攻击发展历程|VLM Attack - 视觉语言模型攻击发展历程]]
+
+[[30_对抗机器学习/ViT与基础模型攻击/VLM Attack - 视觉语言模型攻击发展历程|VLM 攻击发展历程]] → [[30_对抗机器学习/ViT与基础模型攻击/论文 - Towards Highly Transferable Vision-Language Attack via Semantic-Augmented Dynamic Contrastive Interaction|SADCA - 语义增强动态对比迁移攻击]]：理解正负样本、动态交互和语义增强如何提高图文迁移攻击效果。
 
 ## 本次补充的阅读线索
 
@@ -125,6 +136,8 @@ tags:
 - [[30_对抗机器学习/ViT与基础模型攻击/论文 - On the Robustness of Vision Transformers to Adversarial Examples|论文 - On the Robustness of Vision Transformers to Adversarial Examples]]：比较 ViT、CNN 的白盒鲁棒性、跨模型迁移以及 SAGA 和集成防御的评估设置。
 - [[30_对抗机器学习/ViT与基础模型攻击/论文 - Towards Transferable Adversarial Attacks on Vision Transformers|论文 - Towards Transferable Adversarial Attacks on Vision Transformers]]：围绕 PNA 与 PatchOut，理解注意力梯度和随机 Patch 更新对 ViT 迁移攻击的作用。
 
+- [[30_对抗机器学习/ViT与基础模型攻击/论文 - Towards Highly Transferable Vision-Language Attack via Semantic-Augmented Dynamic Contrastive Interaction|SADCA - 语义增强动态对比迁移攻击]]：包含方法公式、迭代与扰动预算、检索 ASR 口径、跨模型及跨任务实验，并区分图文判断错误与安全越狱。
+
 ## 主要论文出处
 
 - [Segment Anything](https://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html)（ICCV，2023，会议论文）
@@ -137,6 +150,8 @@ tags:
 - [Transferable Adversarial Attacks on Vision Transformers with Token Gradient Regularization](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Transferable_Adversarial_Attacks_on_Vision_Transformers_With_Token_Gradient_Regularization_CVPR_2023_paper.html)（CVPR，2023，会议论文）
 - [Transferable Adversarial Attack for Both Vision Transformers and Convolutional Networks via Momentum Integrated Gradients](https://openaccess.thecvf.com/content/ICCV2023/html/Ma_Transferable_Adversarial_Attack_for_Both_Vision_Transformers_and_Convolutional_Networks_ICCV_2023_paper.html)（ICCV，2023，会议论文）
 - [Improving the Adversarial Transferability of Vision Transformers with Virtual Dense Connection](https://ojs.aaai.org/index.php/AAAI/article/view/28541)（AAAI，2024，会议论文）
+
+- [Towards Highly Transferable Vision-Language Attack via Semantic-Augmented Dynamic Contrastive Interaction](https://openaccess.thecvf.com/content/CVPR2026/html/Li_Towards_Highly_Transferable_Vision-Language_Attack_via_Semantic-Augmented_Dynamic_Contrastive_Interaction_CVPR_2026_paper.html)（CVPR，2026，会议论文；[预印本](https://arxiv.org/abs/2603.04839)；正式网页本次访问受限，信息以论文 PDF 与接收记录交叉核实）
 
 ## 继续阅读
 

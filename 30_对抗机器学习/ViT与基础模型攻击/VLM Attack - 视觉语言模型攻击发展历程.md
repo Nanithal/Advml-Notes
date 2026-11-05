@@ -16,19 +16,27 @@ tags:
   - "[[30_对抗机器学习/ViT与基础模型攻击/ViT Attack - 文献综述与分类]]"
   - "[[20_深度学习/自然语言处理/文本表示 - 机器学习与深度学习如何理解单词]]"
   - "[[50_汇报与写作/项目汇报/对抗妆容项目 - 汇报稿与答辩素材]]"
+  - "[[30_对抗机器学习/ViT与基础模型攻击/论文 - Towards Highly Transferable Vision-Language Attack via Semantic-Augmented Dynamic Contrastive Interaction]]"
 论文条目:
   - "[[论文来源目录#clip]]"
+  - "[[论文来源目录#sadca]]"
 论文标题:
   - "Learning Transferable Visual Models From Natural Language Supervision"
+  - "Towards Highly Transferable Vision-Language Attack via Semantic-Augmented Dynamic Contrastive Interaction"
 发表载体:
   - "ICML"
+  - "CVPR"
 发表年份:
   - "2021"
+  - "2026"
 发表类型:
+  - "会议论文"
   - "会议论文"
 发表链接:
   - "https://proceedings.mlr.press/v139/radford21a.html"
-预印本链接: []
+  - "https://openaccess.thecvf.com/content/CVPR2026/html/Li_Towards_Highly_Transferable_Vision-Language_Attack_via_Semantic-Augmented_Dynamic_Contrastive_Interaction_CVPR_2026_paper.html"
+预印本链接:
+  - "https://arxiv.org/abs/2603.04839"
 来源核实日期: "2026-10-30"
 ---
 
@@ -307,6 +315,10 @@ LLaVA 等大型视觉语言模型将视觉特征与大型语言模型连接起�
 
 这里需要特别说明：上述问题是当前值得关注的研究主题，并不意味着它们全部在 2026 年才首次出现，也不意味着所有问题已经获得解决。
 
+### 6.1 代表性阅读：SADCA（CVPR 2026）
+
+[[30_对抗机器学习/ViT与基础模型攻击/论文 - Towards Highly Transferable Vision-Language Attack via Semantic-Augmented Dynamic Contrastive Interaction|SADCA - 语义增强动态对比迁移攻击]] 将正负样本对比、图文动态交替更新和语义增强结合，用于提高视觉语言对抗样本的跨模型与跨任务迁移性。阅读时注意图像与文本扰动预算、检索 ASR 的分母，以及相同图像更新次数与相同计算成本的区别。大型视觉语言模型的 Yes/No 图文判断实验，应与安全策略绕过区分。
+
 ## 七、如何理解 VLM Attack 的整体发展脉络？
 
 ## 核心技术演进
@@ -341,8 +353,12 @@ LLaVA 等大型视觉语言模型将视觉特征与大型语言模型连接起�
 - [[20_深度学习/自然语言处理/文本表示 - 机器学习与深度学习如何理解单词|文本表示 - 机器学习与深度学习如何理解单词]]：补充视觉语言模型中的文本表示背景。
 - [[50_汇报与写作/项目汇报/对抗妆容项目 - 汇报稿与答辩素材|对抗妆容项目 - 汇报稿与答辩素材]]：联系项目稿中提到的 CLIP 与视觉语言背景。
 
+- [[30_对抗机器学习/ViT与基础模型攻击/论文 - Towards Highly Transferable Vision-Language Attack via Semantic-Augmented Dynamic Contrastive Interaction|SADCA - 语义增强动态对比迁移攻击]]：作为 2026 年动态图文迁移攻击的具体阅读入口，对照语义对齐、负样本引导与多视图增强。
+
 ## 论文出处
 
 - [Learning Transferable Visual Models From Natural Language Supervision](https://proceedings.mlr.press/v139/radford21a.html)：ICML，2021，会议论文。
+
+- [Towards Highly Transferable Vision-Language Attack via Semantic-Augmented Dynamic Contrastive Interaction](https://openaccess.thecvf.com/content/CVPR2026/html/Li_Towards_Highly_Transferable_Vision-Language_Attack_via_Semantic-Augmented_Dynamic_Contrastive_Interaction_CVPR_2026_paper.html)：CVPR，2026，会议论文；[预印本](https://arxiv.org/abs/2603.04839)。
 
 <!-- knowledge-links:end -->
