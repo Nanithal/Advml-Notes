@@ -10,11 +10,12 @@ tags:
   - "主题/训练基础"
 状态: "已整理"
 摘要: "围绕“Inductive Bias - 归纳偏置”，整理核心概念：什么是“归纳”？什么是“偏置”？、哲学基石：“无免费午餐定理”（No Free Lunch Theorem）、主流机器学习/深度学习模型的归纳偏置拆解。"
-更新日期: "2026-10-30"
+更新日期: "2026-11-06"
 上级目录: "[[20_深度学习/训练基础/总结 - 训练基础]]"
 相关笔记:
   - "[[40_课程笔记/吴恩达机器学习/过拟合与欠拟合 - 课程笔记]]"
   - "[[20_深度学习/Transformer与ViT/论文 - An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale]]"
+  - "[[20_深度学习/Transformer与ViT/ViT与CNN - 局部特征、全局关系与迁移性]]"
 论文条目: []
 论文标题: []
 发表载体: []
@@ -148,5 +149,7 @@ tags:
 
 - [[40_课程笔记/吴恩达机器学习/过拟合与欠拟合 - 课程笔记|过拟合与欠拟合 - 课程笔记]]：联系模型假设、泛化与拟合能力。
 - [[20_深度学习/Transformer与ViT/论文 - An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale|论文 - An Image is Worth 16x16 Words：Transformers for Image Recognition at Scale]]：结合 ViT 原论文理解架构的归纳偏置。
+
+- [[20_深度学习/Transformer与ViT/ViT与CNN - 局部特征、全局关系与迁移性|ViT与CNN - 局部特征、全局关系与迁移性]]：通过局部卷积与全局交互的比较，理解归纳偏置、预训练和迁移性的关系，并区分能力与决策依赖。
 
 <!-- knowledge-links:end -->
