@@ -16,7 +16,7 @@ tags:
   - "主题/攻击方法"
 状态: "已整理"
 摘要: "围绕“MIM - 动量迭代攻击详解”，整理MIM（动量迭代攻击）详解、MIM 到底做了什么、先把攻击目标写清楚。"
-更新日期: "2026-11-05"
+更新日期: "2026-11-08"
 上级目录: "[[30_对抗机器学习/攻击方法/总结 - 攻击方法]]"
 相关笔记:
   - "[[30_对抗机器学习/攻击方法/MI-FGSM - 动量迭代攻击（早期阅读笔记）]]"
@@ -24,27 +24,35 @@ tags:
   - "[[10_基础与算法/优化方法/Momentum - 带动量的梯度下降]]"
   - "[[30_对抗机器学习/迁移与特征攻击/论文 - Boosting Adversarial Transferability by Achieving Flat Local Maxima]]"
   - "[[30_对抗机器学习/迁移与特征攻击/DIM - 输入多样性攻击详解]]"
+  - "[[30_对抗机器学习/迁移与特征攻击/VMI - 方差调节动量攻击详解]]"
 论文条目:
   - "[[论文来源目录#mifgsm]]"
   - "[[论文来源目录#dim]]"
+  - "[[论文来源目录#vmi]]"
 论文标题:
   - "Boosting Adversarial Attacks with Momentum"
   - "Improving Transferability of Adversarial Examples With Input Diversity"
+  - "Enhancing the Transferability of Adversarial Attacks Through Variance Tuning"
 发表载体:
+  - "CVPR"
   - "CVPR"
   - "CVPR"
 发表年份:
   - "2018"
   - "2019"
+  - "2021"
 发表类型:
+  - "会议论文"
   - "会议论文"
   - "会议论文"
 发表链接:
   - "https://openaccess.thecvf.com/content_cvpr_2018/html/Dong_Boosting_Adversarial_Attacks_CVPR_2018_paper.html"
   - "https://openaccess.thecvf.com/content_CVPR_2019/html/Xie_Improving_Transferability_of_Adversarial_Examples_With_Input_Diversity_CVPR_2019_paper.html"
+  - "https://openaccess.thecvf.com/content/CVPR2021/html/Wang_Enhancing_the_Transferability_of_Adversarial_Attacks_Through_Variance_Tuning_CVPR_2021_paper.html"
 预印本链接:
   - "https://arxiv.org/abs/1710.06081"
   - "https://arxiv.org/abs/1803.06978"
+  - "https://arxiv.org/abs/2103.15571"
 来源核实日期: "2026-10-30"
 ---
 
@@ -474,6 +482,8 @@ $$
 
 ## 笔记联系
 
+- [[30_对抗机器学习/迁移与特征攻击/VMI - 方差调节动量攻击详解|VMI - 方差调节动量攻击详解]]：先用上一轮保存的“邻域平均梯度减中心梯度”修正当前梯度，再归一化并累积动量；该修正向量不同于平方偏差统计方差。
+
 - [[30_对抗机器学习/攻击方法/MI-FGSM - 动量迭代攻击（早期阅读笔记）|MI-FGSM - 动量迭代攻击（早期阅读笔记）]]：比较早期记录与后续详细推导。
 - [[30_对抗机器学习/攻击方法/论文 - Boosting Adversarial Attacks with Momentum|论文 - Boosting Adversarial Attacks with Momentum]]：回到动量迭代攻击的论文阅读。
 - [[10_基础与算法/优化方法/Momentum - 带动量的梯度下降|Momentum - 带动量的梯度下降]]：回顾动量平均与历史方向累积。
@@ -482,6 +492,9 @@ $$
 - [[30_对抗机器学习/迁移与特征攻击/DIM - 输入多样性攻击详解|DIM - 输入多样性攻击详解]]：先在随机输入视图上计算梯度，再做归一化与动量累积，理解 MIM 与 DIM 的组合及各自作用位置。
 
 ## 论文出处
+
+- [Enhancing the Transferability of Adversarial Attacks Through Variance Tuning](https://openaccess.thecvf.com/content/CVPR2021/html/Wang_Enhancing_the_Transferability_of_Adversarial_Attacks_Through_Variance_Tuning_CVPR_2021_paper.html)：CVPR，2021，1924–1933；在动量迭代攻击中加入邻域梯度修正。
+  [预印本](https://arxiv.org/abs/2103.15571)。
 
 - [Boosting Adversarial Attacks with Momentum](https://openaccess.thecvf.com/content_cvpr_2018/html/Dong_Boosting_Adversarial_Attacks_CVPR_2018_paper.html)：CVPR，2018，会议论文。
   [预印本](https://arxiv.org/abs/1710.06081)。

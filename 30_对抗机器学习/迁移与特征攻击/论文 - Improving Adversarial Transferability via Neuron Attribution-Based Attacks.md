@@ -14,24 +14,32 @@ tags:
 time: "2026-08-25T17:55:00"
 状态: "已整理"
 摘要: "围绕“论文 - Improving Adversarial Transferability via Neuron Attribution-Based Attacks”，整理研究背景与问题、核心创新：神经元归因（Neuron Attribution）、方法细节。"
-更新日期: "2026-10-30"
+更新日期: "2026-11-11"
 上级目录: "[[30_对抗机器学习/迁移与特征攻击/总结 - 迁移与特征攻击]]"
 相关笔记:
   - "[[30_对抗机器学习/迁移与特征攻击/Feature Attack - 特征攻击发展历程]]"
   - "[[30_对抗机器学习/迁移与特征攻击/论文 - Feature Importance-Aware Transferable Adversarial Attacks]]"
+  - "[[20_深度学习/训练基础/Integrated Gradients - 积分梯度详解]]"
 论文条目:
   - "[[论文来源目录#naa]]"
+  - "[[论文来源目录#ig]]"
 论文标题:
   - "Improving Adversarial Transferability via Neuron Attribution-Based Attacks"
+  - "Axiomatic Attribution for Deep Networks"
 发表载体:
   - "CVPR"
+  - "ICML"
 发表年份:
   - "2022"
+  - "2017"
 发表类型:
+  - "会议论文"
   - "会议论文"
 发表链接:
   - "https://openaccess.thecvf.com/content/CVPR2022/html/Zhang_Improving_Adversarial_Transferability_via_Neuron_Attribution-Based_Attacks_CVPR_2022_paper.html"
-预印本链接: []
+  - "https://proceedings.mlr.press/v70/sundararajan17a.html"
+预印本链接:
+  - "https://arxiv.org/abs/1703.01365"
 来源核实日期: "2026-10-30"
 ---
 
@@ -187,10 +195,14 @@ $$A_{y_j} \approx (y_j - y_j') \cdot \frac{1}{n}\sum_{m=1}^{n}\frac{\partial F}{
 
 ## 笔记联系
 
+- [[20_深度学习/训练基础/Integrated Gradients - 积分梯度详解|Integrated Gradients - 积分梯度详解]]：补充路径积分归因与基线选择。标准输入 IG 的完备性对应 $F(x)-F(b)$；中间层归因还需按表示路径及所用近似分别分析。
+
 - [[30_对抗机器学习/迁移与特征攻击/Feature Attack - 特征攻击发展历程|Feature Attack - 特征攻击发展历程]]：回到特征层攻击与迁移的研究脉络。
 - [[30_对抗机器学习/迁移与特征攻击/论文 - Feature Importance-Aware Transferable Adversarial Attacks|论文 - Feature Importance-Aware Transferable Adversarial Attacks]]：比较特征重要性与神经元归因两条迁移攻击路线。
 
 ## 论文出处
+
+- [Axiomatic Attribution for Deep Networks](https://proceedings.mlr.press/v70/sundararajan17a.html)：ICML，2017，PMLR 70:3319–3328；积分梯度的原始论文。[预印本](https://arxiv.org/abs/1703.01365)。
 
 - [Improving Adversarial Transferability via Neuron Attribution-Based Attacks](https://openaccess.thecvf.com/content/CVPR2022/html/Zhang_Improving_Adversarial_Transferability_via_Neuron_Attribution-Based_Attacks_CVPR_2022_paper.html)：CVPR，2022，会议论文。
 
